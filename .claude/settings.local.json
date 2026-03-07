@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init)",
+      "Bash(git add -A)",
+      "Bash(git commit -m \"Initial commit: AISymmetric Ultimate AI Consulting Website:*)",
+      "Bash(gh auth status)",
+      "Bash(git config user.name \"aisymmetrictp\")",
+      "Bash(git config user.email \"aisymmetrictp@users.noreply.github.com\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}
