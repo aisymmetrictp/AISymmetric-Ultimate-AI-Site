@@ -7,7 +7,28 @@
       "Bash(gh auth status)",
       "Bash(git config user.name \"aisymmetrictp\")",
       "Bash(git config user.email \"aisymmetrictp@users.noreply.github.com\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create \"AISymmetric-Ultimate-AI-Site\" --public --source=. --push --description \"AISymmetric - Premium AI Consulting Website with neural network animations and interactive enterprise design\")",
+      "Bash(netlify --version)",
+      "Bash(netlify status)",
+      "Bash(netlify deploy --prod --dir=. --site-name=aisymmetric-ultimate)",
+      "Bash(netlify sites:create --name aisymmetric-ultimate)",
+      "Bash(netlify sites:create --name aisymmetric-ultimate --account-slug aisymmetric)",
+      "Bash(netlify api listAccountsForUser)",
+      "Bash(netlify sites:create --name aisymmetric-ultimate --account-slug tyler-perleberg)",
+      "Bash(netlify deploy --prod --dir=.)",
+      "Bash(netlify api getSite --data '{\"\"site_id\"\": \"\"aisymmetric-ultimate\"\"}')",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(''SSL:'', d.get\\(''ssl'',{}\\)\\); print\\(''Domain:'', d.get\\(''default_domain''\\)\\); print\\(''Custom Domain:'', d.get\\(''custom_domain''\\)\\); print\\(''Force SSL:'', d.get\\(''force_ssl''\\)\\); print\\(''SSL URL:'', d.get\\(''ssl_url''\\)\\)\")",
+      "Bash(netlify api getSite --data \"{\"\"site_id\"\": \"\"aisymmetric-ultimate\"\"}\")",
+      "Bash(node -e \"let d='''';process.stdin.on\\(''data'',c=>d+=c\\);process.stdin.on\\(''end'',\\(\\)=>{const s=JSON.parse\\(d\\);console.log\\(''Default Domain:'', s.default_domain\\);console.log\\(''SSL URL:'', s.ssl_url\\);console.log\\(''URL:'', s.url\\);console.log\\(''Force SSL:'', s.force_ssl\\);console.log\\(''SSL:'', JSON.stringify\\(s.ssl,null,2\\)\\);console.log\\(''Custom Domain:'', s.custom_domain\\);console.log\\(''Published Deploy:'', s.published_deploy?.ssl_url\\)}\\)\")",
+      "Bash(netlify api getSite --data \"{\"\"site_id\"\": \"\"b21b3dc8-43f1-4a71-ae8a-b26b256155fc\"\"}\")",
+      "Bash(node -e \"let d='''';process.stdin.on\\(''data'',c=>d+=c\\);process.stdin.on\\(''end'',\\(\\)=>{const s=JSON.parse\\(d\\);console.log\\(''Default Domain:'', s.default_domain\\);console.log\\(''SSL URL:'', s.ssl_url\\);console.log\\(''URL:'', s.url\\);console.log\\(''Force SSL:'', s.force_ssl\\);console.log\\(''SSL:'', JSON.stringify\\(s.ssl,null,2\\)\\);console.log\\(''Custom Domain:'', s.custom_domain\\)}\\)\")",
+      "Bash(curl -sI https://aisymmetric-ultimate.netlify.app)",
+      "Bash(node -e \"console.log\\(''node available''\\)\")",
+      "Bash(npm install -g sharp)",
+      "Bash(node -e \":*)",
+      "Bash(npm init -y)",
+      "Bash(npm install sharp)"
     ]
   }
 }

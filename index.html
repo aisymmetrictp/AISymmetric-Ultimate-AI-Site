@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>" />
+  <link rel="icon" href="assets/images/logo-transparent.png" />
 </head>
 <body>
   <!-- Neural Network Canvas -->
@@ -22,11 +22,7 @@
   <nav class="nav" id="nav">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
-        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 4L4 12v16l16 8 16-8V12L20 4z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-          <path d="M20 4v32M4 12l16 8 16-8M4 28l16-8 16 8" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-          <circle cx="20" cy="20" r="3" fill="#3B82F6"/>
-        </svg>
+        <img src="assets/images/logo-transparent.png" alt="AISymmetric" class="logo-icon" />
         <span>AISymmetric</span>
       </a>
       <div class="nav-links">
@@ -35,6 +31,7 @@
         <a href="#platforms">Platforms</a>
         <a href="#approach">Approach</a>
         <a href="#case-studies">Case Studies</a>
+        <a href="#team">Team</a>
         <a href="#contact" class="nav-cta">Start a Conversation</a>
       </div>
       <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
@@ -50,6 +47,7 @@
     <a href="#platforms">Platforms</a>
     <a href="#approach">Approach</a>
     <a href="#case-studies">Case Studies</a>
+    <a href="#team">Team</a>
     <a href="#contact" class="nav-cta">Start a Conversation</a>
   </div>
 
@@ -78,8 +76,8 @@
       </div>
       <div class="hero-metrics">
         <div class="metric">
-          <span class="metric-value" data-count="150">0</span><span class="metric-suffix">+</span>
-          <span class="metric-label">Enterprise Projects</span>
+          <span class="metric-value" data-count="25">0</span><span class="metric-suffix">+</span>
+          <span class="metric-label">SMB to Enterprise Success Stories</span>
         </div>
         <div class="metric-divider"></div>
         <div class="metric">
@@ -223,7 +221,7 @@
       <div class="section-header">
         <span class="section-tag">Enterprise Platforms</span>
         <h2 class="section-title">Deep expertise across the <span class="gradient-text">modern stack</span></h2>
-        <p class="section-subtitle">We architect solutions on the platforms that power global enterprises.</p>
+        <p class="section-subtitle">We design intelligent custom solutions and architect on the platforms that power global enterprises.</p>
       </div>
       <div class="platforms-grid">
         <div class="platform-card" data-aos>
@@ -268,6 +266,27 @@
           <h4>Snowflake</h4>
           <p>Data lakehouse & analytics platforms</p>
         </div>
+        <div class="platform-card" data-aos>
+          <div class="platform-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="16" height="16" rx="2" stroke="#22D3EE" stroke-width="1.5"/><rect x="26" y="6" width="16" height="16" rx="2" stroke="#22D3EE" stroke-width="1.5"/><rect x="6" y="26" width="16" height="16" rx="2" stroke="#22D3EE" stroke-width="1.5"/><rect x="26" y="26" width="16" height="16" rx="2" stroke="#22D3EE" stroke-width="1.5"/></svg>
+          </div>
+          <h4>Microsoft</h4>
+          <p>Azure, Dynamics 365, Copilot & Power Platform</p>
+        </div>
+        <div class="platform-card" data-aos>
+          <div class="platform-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="6" stroke="#3B82F6" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="#3B82F6" stroke-width="1.5"/><circle cx="36" cy="12" r="4" stroke="#3B82F6" stroke-width="1.5"/><circle cx="12" cy="36" r="4" stroke="#3B82F6" stroke-width="1.5"/><circle cx="36" cy="36" r="4" stroke="#3B82F6" stroke-width="1.5"/><path d="M15 15l6 6M33 15l-6 6M15 33l6-6M33 33l-6-6" stroke="#3B82F6" stroke-width="1" opacity="0.5"/></svg>
+          </div>
+          <h4>Model Context Protocol</h4>
+          <p>MCP integrations & agentic tool orchestration</p>
+        </div>
+        <div class="platform-card" data-aos>
+          <div class="platform-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="6" width="32" height="26" rx="4" stroke="#22D3EE" stroke-width="1.5"/><path d="M8 14h32" stroke="#22D3EE" stroke-width="1" opacity="0.4"/><circle cx="14" cy="10" r="1.5" fill="#22D3EE" opacity="0.4"/><circle cx="20" cy="10" r="1.5" fill="#3B82F6" opacity="0.4"/><circle cx="26" cy="10" r="1.5" fill="#22D3EE" opacity="0.4"/><path d="M16 36h16M20 32h8v4h-8z" stroke="#22D3EE" stroke-width="1.5"/></svg>
+          </div>
+          <h4>Marketing & Webstack</h4>
+          <p>CMS, analytics, SEO & marketing automation</p>
+        </div>
       </div>
     </div>
   </section>
@@ -289,8 +308,8 @@
             <div class="step-number">01</div>
             <div class="step-node"></div>
             <div class="step-content">
-              <h3>Discover</h3>
-              <p>Deep-dive into your enterprise landscape, technology stack, data flows, and strategic objectives.</p>
+              <h3>Discover & Model</h3>
+              <p>Rapidly map your enterprise landscape, technology stack, and strategic objectives. We deliver fast, actionable concepts designed to implement quickly and iterate toward measurable ROI.</p>
             </div>
           </div>
           <div class="approach-step" data-aos>
@@ -420,6 +439,60 @@
     </div>
   </section>
 
+  <!-- Section 7: Meet the Team -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet the Team</span>
+        <h2 class="section-title">The minds behind <span class="gradient-text">AISymmetric</span></h2>
+        <p class="section-subtitle">Hands-on builders with deep expertise across AI, enterprise platforms, and digital transformation.</p>
+      </div>
+      <div class="team-grid">
+        <!-- Tyler Perleberg -->
+        <a href="https://tylerperleberg.com" target="_blank" rel="noopener" class="team-card" data-aos>
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="team-photo">
+                <img src="assets/images/Tyler Perleberg Professional Photo.jpg" alt="Tyler Perleberg" />
+              </div>
+              <h3>Tyler Perleberg</h3>
+              <p class="team-role">Founder & Digital Executive</p>
+              <span class="team-flip-hint">Click to learn more</span>
+            </div>
+            <div class="team-card-back">
+              <div class="team-back-content">
+                <h3>Tyler Perleberg</h3>
+                <p class="team-role">Founder & Digital Executive</p>
+                <p class="team-bio">With 20 years of experience, Tyler is a pragmatic and forward-thinking digital executive specializing in strategy, organizational change, and AI-driven innovation. He partners with organizations — from SMBs to Global 100s — to embed AI into core operations, enhance lead generation, and automate customer engagement. Known for delivering tangible results, he effectively bridges business and technology to help companies thrive in a rapidly evolving digital landscape.</p>
+                <span class="team-link-hint">tylerperleberg.com &rarr;</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Shawn Joseph -->
+        <div class="team-card" data-aos>
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="team-photo">
+                <img src="assets/images/Shawn Joseph Profile picture.jpg" alt="Shawn Joseph" />
+              </div>
+              <h3>Shawn Joseph</h3>
+              <p class="team-role">AI Solutions Administrator</p>
+              <span class="team-flip-hint">Click to learn more</span>
+            </div>
+            <div class="team-card-back">
+              <div class="team-back-content">
+                <h3>Shawn Joseph</h3>
+                <p class="team-role">AI Solutions Administrator</p>
+                <p class="team-bio">Shawn designs and deploys intelligent automation tools that help organizations operate more efficiently and make better data-driven decisions. With over five years training and evaluating large language and computer vision models for Google and Meta, he brings deep hands-on expertise in AI quality, model behavior, and scalable system performance. A Certified Salesforce Administrator and Agentforce Specialist, Shawn combines AI fluency with strong platform architecture skills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
   <section class="section contact" id="contact">
     <div class="container">
@@ -470,11 +543,7 @@
       <div class="footer-inner">
         <div class="footer-brand">
           <a href="#" class="nav-logo">
-            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 4L4 12v16l16 8 16-8V12L20 4z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <path d="M20 4v32M4 12l16 8 16-8M4 28l16-8 16 8" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-              <circle cx="20" cy="20" r="3" fill="#3B82F6"/>
-            </svg>
+            <img src="assets/images/logo-transparent.png" alt="AISymmetric" class="logo-icon" />
             <span>AISymmetric</span>
           </a>
           <p class="footer-tagline">Architecting Intelligent Enterprises</p>
