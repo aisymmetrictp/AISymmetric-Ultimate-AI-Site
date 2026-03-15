@@ -929,7 +929,136 @@ img { max-width: 100%; }
   }
 }
 
-/* --- ROI Calculator Banner --- */
+/* --- Tools Showcase Grid --- */
+.tools-showcase {
+  background: var(--gray-50);
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--graphite);
+  border-radius: 20px;
+  padding: 36px 32px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.tool-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.tool-card-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+.tool-accent-blue {
+  background: var(--blue);
+}
+
+.tool-accent-cyan {
+  background: var(--cyan);
+}
+
+.tool-accent-gradient {
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+}
+
+.tool-card::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -30%;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.tool-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--cyan);
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.tool-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.tool-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--gray-400);
+  flex: 1;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.tool-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  position: relative;
+  z-index: 1;
+  transition: gap 0.3s ease;
+}
+
+.tool-card:hover .tool-cta {
+  gap: 12px;
+}
+
+.tool-cta svg {
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover .tool-cta svg {
+  transform: translateX(3px);
+}
+
+@media (max-width: 1024px) {
+  .tools-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+/* --- ROI Calculator Banner (legacy, kept for reference) --- */
 .roi-banner {
   padding: 0 0 80px;
 }
