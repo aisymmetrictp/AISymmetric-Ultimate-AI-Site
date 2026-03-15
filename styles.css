@@ -986,6 +986,23 @@ img { max-width: 100%; }
   margin: 0 auto;
 }
 
+.team-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1100px;
+}
+
+.team-subsection {
+  text-align: center;
+  margin: 60px 0 32px;
+}
+
+.team-subsection-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  letter-spacing: -0.02em;
+}
+
 .team-card {
   perspective: 1000px;
   height: 480px;
@@ -1297,6 +1314,11 @@ img { max-width: 100%; }
     grid-template-columns: 1fr;
     gap: 48px;
   }
+
+  .team-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1343,6 +1365,10 @@ img { max-width: 100%; }
 
   .why-grid,
   .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid-3 {
     grid-template-columns: 1fr;
   }
 
