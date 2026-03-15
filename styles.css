@@ -929,6 +929,108 @@ img { max-width: 100%; }
   }
 }
 
+/* --- ROI Calculator Banner --- */
+.roi-banner {
+  padding: 0 0 80px;
+}
+
+.roi-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 56px 56px;
+  background: var(--graphite);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.roi-inner.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.roi-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+}
+
+.roi-inner::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -15%;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.roi-content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.roi-title {
+  font-size: clamp(26px, 3.5vw, 36px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.roi-subtitle {
+  font-size: 15px;
+  color: var(--gray-400);
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.btn-roi {
+  position: relative;
+  z-index: 1;
+  background: var(--white);
+  color: var(--graphite);
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.btn-roi:hover {
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
+}
+
+@media (max-width: 768px) {
+  .roi-inner {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 28px;
+    gap: 32px;
+  }
+
+  .roi-subtitle {
+    max-width: none;
+  }
+
+  .btn-roi {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* --- Why Section --- */
 .why {
   background: var(--gray-50);
