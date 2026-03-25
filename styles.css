@@ -984,10 +984,6 @@ img { max-width: 100%; }
   background: linear-gradient(90deg, var(--blue), var(--cyan));
 }
 
-.tool-accent-purple {
-  background: linear-gradient(90deg, #8b5cf6, var(--blue));
-}
-
 .tool-card::after {
   content: '';
   position: absolute;
