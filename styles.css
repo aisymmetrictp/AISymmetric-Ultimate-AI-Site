@@ -319,13 +319,14 @@ img { max-width: 100%; }
 /* --- Hero Metrics --- */
 .hero-metrics {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 40px;
 }
 
 .metric {
   text-align: center;
+  min-width: 120px;
 }
 
 .metric-value {
@@ -356,6 +357,7 @@ img { max-width: 100%; }
 .metric-divider {
   width: 1px;
   height: 40px;
+  margin-top: 8px;
   background: var(--gray-200);
 }
 
