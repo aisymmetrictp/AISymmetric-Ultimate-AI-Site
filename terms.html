@@ -3,14 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVF4MDVKJS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-CVF4MDVKJS');
-  </script>
+  <!-- Analytics loaded via cookie-consent.js after user consent (ISO 27701) -->
   <title>Terms of Service — AISymmetric LLC</title>
   <meta name="description" content="Terms of Service, Privacy Policy, and Acceptable Use Policy for AISymmetric LLC web services." />
   <link rel="canonical" href="https://aisymmetricsolutions.com/terms" />
@@ -320,9 +313,22 @@
               <p>Website visitor data collected through analytics is typically retained according to the default retention settings of the analytics platform in use (for example, Google Analytics default retention periods).</p>
             </div>
 
+            <!-- Data Breach Notification (ISO 27701 7.3.4) -->
+            <div id="breach-notification" class="policy-block">
+              <h3>5. Data Breach Notification</h3>
+              <p>In the event of a confirmed personal data breach that poses a risk to the rights and freedoms of affected individuals, AISymmetric will:</p>
+              <ul>
+                <li><strong>Notify affected parties within 72 hours</strong> of becoming aware of the breach, consistent with GDPR Article 33 and industry best practices.</li>
+                <li><strong>Provide written notification</strong> via email to the affected individual(s) or Client contact(s) on record, including: a description of the nature of the breach, the categories and approximate number of records affected, the likely consequences, and the measures taken or proposed to address the breach.</li>
+                <li><strong>Notify relevant supervisory authorities</strong> where required by applicable law or regulation.</li>
+                <li><strong>Document and retain records</strong> of all breach incidents, response actions, and remediation steps for a minimum of three (3) years.</li>
+              </ul>
+              <p>If you believe your data may have been compromised, please contact us immediately at <a href="mailto:evangelist@aisymmetricsolutions.com">evangelist@aisymmetricsolutions.com</a>.</p>
+            </div>
+
             <!-- Your Rights -->
             <div id="client-rights" class="policy-block">
-              <h3>5. Your Rights</h3>
+              <h3>6. Your Rights</h3>
               <p>Depending on your jurisdiction, you may have the right to:</p>
               <ul>
                 <li>Request access to the personal data we hold about you.</li>
@@ -335,7 +341,7 @@
 
             <!-- Contact -->
             <div id="privacy-contact" class="policy-block">
-              <h3>6. Contact</h3>
+              <h3>7. Contact</h3>
               <p>For questions about this Privacy Policy or to make a data-related request, contact us at:</p>
               <div class="contact-block">
                 <p><strong>AISymmetric LLC</strong></p>
@@ -540,5 +546,6 @@
       }
     })();
   </script>
+<script src="cookie-consent.js"></script>
 </body>
 </html>
