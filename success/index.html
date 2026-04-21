@@ -3,61 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0A0F1E" />
+  <meta name="theme-color" content="#FFFFFF" />
 
-  <title>AISymmetric — The AI Boutique Solving the Unsolvable</title>
-  <meta name="description" content="AISymmetric is the #1 AI boutique firm. We architect, build, and deploy agent-powered systems that accelerate ROI across people, process, and technology — from strategy to production in weeks, not quarters." />
-  <meta name="keywords" content="AI consulting, AI agents, Agentforce, Salesforce, automation, AI strategy, custom AI, boutique AI firm, AI ROI, agentic systems" />
+  <title>AISymmetric — Success Stories: Solving the Unsolvable</title>
+  <meta name="description" content="Proof of what AISymmetric delivers. Anonymized customer wins across AI, revenue platforms, and security—spanning manufacturing, healthcare, real estate, financial services, and more." />
+  <meta name="keywords" content="AISymmetric success stories, AI consulting case studies, Agentforce wins, Salesforce outcomes, AI boutique firm, enterprise AI ROI" />
 
-  <link rel="canonical" href="https://success.aisymmetricsolutions.com/" />
+  <link rel="canonical" href="https://aisymmetricsolutions.com/success/" />
+  <link rel="icon" href="../assets/images/logo-transparent.png" />
+
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="AISymmetric — The AI Boutique Solving the Unsolvable" />
-  <meta property="og:description" content="We build agents that build agents. From strategy to production in weeks. Trusted across manufacturing, healthcare, real estate, financial services, and transportation." />
-  <meta property="og:url" content="https://success.aisymmetricsolutions.com/" />
-  <meta property="og:image" content="https://success.aisymmetricsolutions.com/og-image.png" />
+  <meta property="og:title" content="AISymmetric — Success Stories: Solving the Unsolvable" />
+  <meta property="og:description" content="The #1 AI boutique firm. We architect, build, and deploy agent-powered systems that accelerate ROI across people, process, and technology." />
+  <meta property="og:url" content="https://aisymmetricsolutions.com/success/" />
+  <meta property="og:image" content="https://aisymmetricsolutions.com/assets/images/logo-transparent.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AISymmetric — Success Stories" />
+  <meta name="twitter:description" content="Proof of what AISymmetric delivers. Anonymized customer wins that moved the P&L." />
+  <meta name="twitter:image" content="https://aisymmetricsolutions.com/assets/images/logo-transparent.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
   <style>
     /* =========================================================
-       TOKENS
+       TOKENS — match main aisymmetricsolutions.com
        ========================================================= */
     :root {
-      --bg:           #07091A;
-      --bg-2:         #0A0F1E;
-      --surface:      #0F1428;
-      --surface-2:    #151B33;
-      --border:       rgba(255,255,255,0.08);
-      --border-2:     rgba(255,255,255,0.14);
+      --white:       #FFFFFF;
+      --gray-50:     #F9FAFB;
+      --gray-100:    #F3F4F6;
+      --gray-200:    #E5E7EB;
+      --gray-300:    #D1D5DB;
+      --gray-400:    #9CA3AF;
+      --gray-500:    #6B7280;
+      --gray-600:    #4B5563;
+      --gray-700:    #374151;
+      --gray-800:    #1F2937;
+      --gray-900:    #111827;
+      --graphite:    #111111;
 
-      --text:         #E8ECF5;
-      --text-soft:    #9AA3B8;
-      --text-dim:     #6B7285;
+      --blue:        #3B82F6;
+      --cyan:        #22D3EE;
+      --violet:      #8B5CF6;
+      --amber:       #F59E0B;
+      --green:       #10B981;
 
-      --brand:        #3B82F6;
-      --brand-2:      #22D3EE;
-      --brand-3:      #8B5CF6;
-      --accent:       #F59E0B;
-      --success:      #10B981;
+      --grad:        linear-gradient(135deg, #3B82F6, #22D3EE);
+      --grad-wide:   linear-gradient(90deg, #8B5CF6 0%, #3B82F6 50%, #22D3EE 100%);
 
-      --grad-brand:   linear-gradient(135deg, #3B82F6, #22D3EE);
-      --grad-wide:    linear-gradient(90deg, #8B5CF6 0%, #3B82F6 50%, #22D3EE 100%);
-      --grad-glow:    radial-gradient(ellipse at center, rgba(59,130,246,0.25), transparent 70%);
+      --font:        'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --ease:        cubic-bezier(0.16, 1, 0.3, 1);
+      --t-med:       0.3s ease;
+      --t-smooth:    0.5s var(--ease);
 
-      --font:         'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      --font-mono:    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-
-      --ease:         cubic-bezier(0.16, 1, 0.3, 1);
-      --t-med:        0.3s ease;
-      --t-smooth:     0.5s var(--ease);
-      --t-slow:       0.8s var(--ease);
-
-      --container:    1240px;
-      --gutter:       24px;
-      --nav-h:        72px;
+      --container:   1240px;
+      --gutter:      24px;
+      --nav-h:       72px;
     }
 
     /* =========================================================
@@ -68,68 +71,75 @@
     body {
       margin: 0;
       font-family: var(--font);
-      font-size: 16px;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
+      font-size: 16px; line-height: 1.6;
+      color: var(--gray-900);
+      background: var(--white);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
     }
-    body::before {
-      content: '';
-      position: fixed; inset: 0;
-      background:
-        radial-gradient(1000px 600px at 10% -10%, rgba(59,130,246,0.18), transparent 60%),
-        radial-gradient(800px 500px at 90% 20%, rgba(34,211,238,0.12), transparent 60%),
-        radial-gradient(700px 500px at 50% 120%, rgba(139,92,246,0.12), transparent 60%);
-      z-index: -1; pointer-events: none;
-    }
     img, svg { max-width: 100%; display: block; }
     a { color: inherit; text-decoration: none; }
     button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
-    h1, h2, h3, h4 { margin: 0 0 0.5em; letter-spacing: -0.02em; line-height: 1.15; font-weight: 800; }
-    p { margin: 0 0 1em; color: var(--text-soft); }
-    ::selection { background: var(--brand); color: var(--bg); }
+    h1, h2, h3, h4 { margin: 0 0 0.5em; font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+    p { margin: 0 0 1em; color: var(--gray-500); }
+    ::selection { background: var(--blue); color: var(--white); }
 
     .container { max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter); }
     section { padding: 120px 0; position: relative; }
 
     .gradient-text {
-      background: var(--grad-brand);
+      background: var(--grad);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 8px;
-      font-size: 12px; font-weight: 600; letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--brand-2);
+
+    .section-head { text-align: center; max-width: 780px; margin: 0 auto 72px; }
+    .section-tag {
+      display: inline-block;
+      font-size: 12px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.12em;
+      color: var(--blue);
+      padding: 6px 14px;
+      background: rgba(59,130,246,0.08);
+      border-radius: 999px;
       margin-bottom: 20px;
     }
-    .eyebrow::before {
-      content: ''; width: 6px; height: 6px; border-radius: 50%;
-      background: var(--brand-2); box-shadow: 0 0 12px var(--brand-2);
+    .section-title {
+      font-size: clamp(32px, 4vw, 48px);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
     }
-    .section-head { text-align: center; max-width: 780px; margin: 0 auto 72px; }
-    .section-head h2 { font-size: clamp(34px, 4.5vw, 52px); margin-bottom: 16px; }
-    .section-head p { font-size: 17px; line-height: 1.7; }
-
-    /* Scroll reveal base */
-    .reveal { opacity: 0; transform: translateY(24px); transition: opacity var(--t-slow), transform var(--t-slow); }
-    .reveal.in { opacity: 1; transform: none; }
-    .reveal-stagger > * { opacity: 0; transform: translateY(24px); transition: opacity var(--t-slow), transform var(--t-slow); }
-    .reveal-stagger.in > *:nth-child(1) { transition-delay: 0ms;  }
-    .reveal-stagger.in > *:nth-child(2) { transition-delay: 80ms; }
-    .reveal-stagger.in > *:nth-child(3) { transition-delay: 160ms;}
-    .reveal-stagger.in > *:nth-child(4) { transition-delay: 240ms;}
-    .reveal-stagger.in > *:nth-child(5) { transition-delay: 320ms;}
-    .reveal-stagger.in > *:nth-child(6) { transition-delay: 400ms;}
-    .reveal-stagger.in > * { opacity: 1; transform: none; }
+    .section-subtitle {
+      font-size: 17px;
+      color: var(--gray-500);
+      line-height: 1.7;
+      margin: 0;
+    }
 
     /* =========================================================
-       BUTTONS
+       REVEAL — visible by default, opts into hide only if below fold.
+       This avoids the hidden-hero bug entirely.
+       ========================================================= */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: none; }
+    }
+    .fade-in { animation: fadeUp 0.8s var(--ease) both; }
+    .fade-in-1 { animation-delay: 0.05s; }
+    .fade-in-2 { animation-delay: 0.15s; }
+    .fade-in-3 { animation-delay: 0.25s; }
+    .fade-in-4 { animation-delay: 0.35s; }
+    .fade-in-5 { animation-delay: 0.45s; }
+    .rev { opacity: 1; }
+    @media (prefers-reduced-motion: no-preference) {
+      .rev.rev-init { opacity: 0; transform: translateY(20px); transition: opacity 0.7s var(--ease), transform 0.7s var(--ease); }
+      .rev.rev-on   { opacity: 1; transform: none; }
+    }
+
+    /* =========================================================
+       BUTTONS — match main site
        ========================================================= */
     .btn {
       display: inline-flex; align-items: center; gap: 10px;
@@ -138,68 +148,50 @@
       border-radius: 10px;
       transition: transform var(--t-smooth), box-shadow var(--t-smooth), background var(--t-med), color var(--t-med), border-color var(--t-med);
       white-space: nowrap; line-height: 1;
+      border: 1px solid transparent;
     }
     .btn svg { width: 16px; height: 16px; transition: transform var(--t-smooth); }
     .btn:hover svg { transform: translateX(3px); }
-    .btn-primary {
-      background: var(--grad-brand); color: #fff;
-      box-shadow: 0 10px 30px -10px rgba(59,130,246,0.6);
-    }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 40px -10px rgba(59,130,246,0.8); }
-    .btn-ghost {
-      background: transparent; color: var(--text);
-      border: 1px solid var(--border-2);
-    }
-    .btn-ghost:hover { border-color: var(--brand-2); background: rgba(34,211,238,0.06); transform: translateY(-2px); }
+    .btn-primary { background: var(--graphite); color: var(--white); }
+    .btn-primary:hover { background: var(--blue); transform: translateY(-2px); box-shadow: 0 14px 30px -8px rgba(59,130,246,0.5); }
+    .btn-secondary { background: transparent; color: var(--graphite); border-color: var(--gray-300); }
+    .btn-secondary:hover { border-color: var(--graphite); transform: translateY(-2px); }
 
     /* =========================================================
-       NAV
+       NAV — match main site
        ========================================================= */
     .nav {
       position: fixed; top: 0; left: 0; right: 0;
       height: var(--nav-h);
       display: flex; align-items: center;
-      background: rgba(7,9,26,0.6);
+      background: rgba(255,255,255,0.8);
       backdrop-filter: saturate(180%) blur(16px);
       -webkit-backdrop-filter: saturate(180%) blur(16px);
       border-bottom: 1px solid transparent;
       transition: border-color var(--t-med), background var(--t-med);
       z-index: 100;
     }
-    .nav.scrolled { background: rgba(7,9,26,0.85); border-bottom-color: var(--border); }
-    .nav .container { display: flex; align-items: center; justify-content: space-between; width: 100%; }
-    .brand {
-      display: inline-flex; align-items: center; gap: 10px;
-      font-weight: 800; font-size: 17px; letter-spacing: -0.02em;
+    .nav.scrolled { background: rgba(255,255,255,0.95); border-bottom-color: var(--gray-200); }
+    .nav-inner {
+      max-width: var(--container); margin: 0 auto; width: 100%;
+      padding: 0 var(--gutter);
+      display: flex; align-items: center; justify-content: space-between;
     }
-    .brand-mark {
-      width: 28px; height: 28px; border-radius: 8px;
-      background: var(--grad-brand);
-      display: inline-flex; align-items: center; justify-content: center;
-      box-shadow: 0 8px 20px -6px rgba(59,130,246,0.6);
-      position: relative;
+    .nav-logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; }
+    .nav-logo img { width: 28px; height: 28px; }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-links a { font-size: 14px; font-weight: 500; color: var(--gray-700); transition: color var(--t-med); }
+    .nav-links a:hover { color: var(--graphite); }
+    .nav-cta {
+      background: var(--graphite); color: var(--white) !important;
+      padding: 10px 18px; border-radius: 8px; font-size: 13px;
+      transition: background var(--t-med), transform var(--t-smooth);
     }
-    .brand-mark::after {
-      content: ''; position: absolute; inset: 3px;
-      border-radius: 5px;
-      background:
-        linear-gradient(45deg, transparent 47%, rgba(255,255,255,0.9) 48%, rgba(255,255,255,0.9) 52%, transparent 53%),
-        linear-gradient(-45deg, transparent 47%, rgba(255,255,255,0.9) 48%, rgba(255,255,255,0.9) 52%, transparent 53%);
-    }
-    .brand-word .accent { color: var(--brand-2); }
-    .nav-links {
-      display: flex; gap: 32px; align-items: center;
-      list-style: none; margin: 0; padding: 0;
-    }
-    .nav-links a {
-      font-size: 14px; font-weight: 500; color: var(--text-soft);
-      transition: color var(--t-med);
-    }
-    .nav-links a:hover { color: var(--text); }
+    .nav-cta:hover { background: var(--blue); transform: translateY(-1px); }
     .nav-toggle { display: none; width: 32px; height: 32px; position: relative; }
     .nav-toggle span {
       position: absolute; left: 4px; right: 4px; height: 2px;
-      background: var(--text); border-radius: 2px;
+      background: var(--graphite); border-radius: 2px;
       transition: transform var(--t-med), top var(--t-med), opacity 0.2s;
     }
     .nav-toggle span:nth-child(1) { top: 10px; }
@@ -212,634 +204,484 @@
     /* =========================================================
        HERO
        ========================================================= */
-    .hero {
-      min-height: 100vh;
-      padding: calc(var(--nav-h) + 96px) 0 80px;
-      display: flex; align-items: center;
-      position: relative; overflow: hidden;
+    .hero { padding: calc(var(--nav-h) + 96px) 0 96px; position: relative; overflow: hidden; }
+    .hero-bg {
+      position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(900px 500px at 10% 0%, rgba(59,130,246,0.10), transparent 60%),
+        radial-gradient(700px 500px at 90% 10%, rgba(34,211,238,0.08), transparent 60%);
     }
-    .hero-grid {
-      position: absolute; inset: 0;
+    .hero-bg::after {
+      content: ''; position: absolute; inset: 0;
       background-image:
-        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-      background-size: 60px 60px;
-      mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, #000 40%, transparent 85%);
-      -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, #000 40%, transparent 85%);
-      pointer-events: none;
+        radial-gradient(rgba(59,130,246,0.22) 1px, transparent 1px),
+        radial-gradient(rgba(34,211,238,0.22) 1px, transparent 1px);
+      background-size: 80px 80px, 120px 120px;
+      background-position: 0 0, 40px 60px;
+      mask-image: radial-gradient(ellipse 60% 50% at 50% 50%, #000 40%, transparent 80%);
+      -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 50%, #000 40%, transparent 80%);
+      opacity: 0.6;
     }
     .hero .container { position: relative; z-index: 2; text-align: center; }
     .hero-badge {
       display: inline-flex; align-items: center; gap: 10px;
-      padding: 8px 16px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border-2);
+      padding: 6px 14px;
+      background: rgba(59,130,246,0.08);
+      border: 1px solid rgba(59,130,246,0.2);
       border-radius: 999px;
-      font-size: 13px; font-weight: 500;
-      margin-bottom: 32px;
+      font-size: 12px; font-weight: 600;
+      color: var(--blue);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 28px;
     }
-    .hero-badge .pulse {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: var(--brand-2); position: relative;
-      box-shadow: 0 0 12px var(--brand-2);
-    }
-    .hero-badge .pulse::after {
+    .badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); position: relative; }
+    .badge-dot::after {
       content: ''; position: absolute; inset: 0; border-radius: 50%;
-      background: var(--brand-2); opacity: 0.4;
+      background: var(--blue); opacity: 0.4;
       animation: pulse-dot 2s ease-in-out infinite;
     }
     @keyframes pulse-dot {
       0%,100% { transform: scale(1); opacity: 0.4; }
       50%     { transform: scale(2.6); opacity: 0; }
     }
-    .hero h1 {
-      font-size: clamp(44px, 7vw, 88px);
-      font-weight: 900;
-      line-height: 1.02;
+    .hero-title {
+      font-size: clamp(42px, 6.5vw, 84px);
+      font-weight: 900; line-height: 1.02;
       letter-spacing: -0.035em;
-      margin-bottom: 28px;
-      max-width: 1040px; margin-left: auto; margin-right: auto;
+      margin-bottom: 24px;
+      max-width: 980px; margin-left: auto; margin-right: auto;
     }
-    .hero-sub {
+    .hero-subtitle {
       font-size: clamp(17px, 1.6vw, 20px);
-      color: var(--text-soft);
-      line-height: 1.65;
-      max-width: 720px;
-      margin: 0 auto 40px;
+      color: var(--gray-500); line-height: 1.65;
+      max-width: 680px; margin: 0 auto 40px;
     }
-    .hero-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 48px; }
-    .hero-credibility {
-      font-size: 13px; color: var(--text-dim); font-family: var(--font-mono);
-      letter-spacing: 0.06em;
-    }
+    .hero-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 72px; }
 
-    /* =========================================================
-       METRICS BAR
-       ========================================================= */
-    .metrics {
-      padding: 60px 0 96px;
-      position: relative;
-    }
-    .metrics-shell {
-      padding: 48px 32px;
-      background: linear-gradient(180deg, rgba(15,20,40,0.8), rgba(15,20,40,0.4));
-      border: 1px solid var(--border-2);
-      border-radius: 24px;
-      backdrop-filter: blur(12px);
-      position: relative; overflow: hidden;
-    }
-    .metrics-shell::before {
-      content: ''; position: absolute; top: 0; left: 10%; right: 10%; height: 1px;
-      background: linear-gradient(90deg, transparent, var(--brand-2), transparent);
-      opacity: 0.6;
-    }
-    .metrics-grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 32px;
+    /* Hero metrics row — mirrors main site exactly */
+    .hero-metrics {
+      display: flex; align-items: flex-start; justify-content: center;
+      gap: 48px; flex-wrap: wrap;
     }
     .metric {
-      text-align: center;
-      position: relative;
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; min-width: 130px;
     }
-    .metric + .metric::before {
-      content: ''; position: absolute; left: -16px; top: 20%; bottom: 20%; width: 1px;
-      background: var(--border);
+    .metric-top {
+      display: flex; align-items: baseline; justify-content: center;
+      font-weight: 900; line-height: 1; letter-spacing: -0.03em;
+      margin-bottom: 12px;
     }
-    .metric-value {
-      font-family: var(--font-mono);
-      font-size: clamp(36px, 4.5vw, 54px);
-      font-weight: 600;
-      line-height: 1;
-      letter-spacing: -0.02em;
-      background: var(--grad-brand);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 10px;
+    .metric-value { font-size: clamp(36px, 4vw, 52px); color: var(--graphite); }
+    .metric-suffix {
+      font-size: clamp(36px, 4vw, 52px);
+      background: var(--grad);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      margin-left: 2px;
     }
     .metric-label {
       font-size: 13px; font-weight: 500;
-      color: var(--text-soft);
-      letter-spacing: 0.04em;
+      color: var(--gray-500);
+      max-width: 140px; line-height: 1.45;
     }
+    .metric-divider { width: 1px; align-self: stretch; background: var(--gray-200); flex-shrink: 0; }
 
     /* =========================================================
-       OFFERINGS — 3 pillars
+       PROPERTIES — 3 AISymmetric arms
        ========================================================= */
-    .offerings-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-    .offering {
+    .props-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .prop {
+      display: block;
       padding: 36px 32px;
-      background: linear-gradient(180deg, rgba(21,27,51,0.8), rgba(15,20,40,0.4));
-      border: 1px solid var(--border-2);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
       border-radius: 20px;
       position: relative; overflow: hidden;
       transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
-    .offering::before {
-      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-      background: var(--accent-bar, var(--grad-brand));
-      opacity: 0.7;
+    .prop::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--bar, var(--grad));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.5s var(--ease);
     }
-    .offering:nth-child(1) { --accent-bar: linear-gradient(90deg, #3B82F6, #22D3EE); }
-    .offering:nth-child(2) { --accent-bar: linear-gradient(90deg, #8B5CF6, #3B82F6); }
-    .offering:nth-child(3) { --accent-bar: linear-gradient(90deg, #F59E0B, #EF4444); }
-    .offering:hover {
-      transform: translateY(-6px);
-      border-color: rgba(34,211,238,0.4);
-      box-shadow: 0 24px 60px -20px rgba(59,130,246,0.35);
+    .prop:nth-child(1) { --bar: linear-gradient(90deg, #3B82F6, #22D3EE); }
+    .prop:nth-child(2) { --bar: linear-gradient(90deg, #8B5CF6, #3B82F6); }
+    .prop:nth-child(3) { --bar: linear-gradient(90deg, #F59E0B, #EF4444); }
+    .prop:hover {
+      transform: translateY(-4px); border-color: transparent;
+      box-shadow: 0 20px 50px -20px rgba(0,0,0,0.18);
     }
-    .offering-icon {
+    .prop:hover::before { transform: scaleX(1); }
+    .prop-icon {
       width: 48px; height: 48px; border-radius: 12px;
       display: inline-flex; align-items: center; justify-content: center;
-      background: rgba(255,255,255,0.05);
-      border: 1px solid var(--border-2);
-      margin-bottom: 24px;
-      color: var(--brand-2);
+      background: rgba(59,130,246,0.08); margin-bottom: 24px; color: var(--blue);
     }
-    .offering-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-    .offering h3 { font-size: 22px; margin-bottom: 12px; letter-spacing: -0.02em; }
-    .offering p { font-size: 15px; margin: 0 0 20px; }
-    .offering-list { list-style: none; margin: 0; padding: 0; }
-    .offering-list li {
-      font-size: 13px; font-family: var(--font-mono); font-weight: 500;
-      color: var(--text-soft);
-      padding: 6px 0;
-      display: flex; align-items: center; gap: 10px;
-    }
-    .offering-list li::before {
-      content: ''; width: 4px; height: 4px; border-radius: 50%;
-      background: var(--brand-2);
-      box-shadow: 0 0 6px var(--brand-2);
-    }
+    .prop:nth-child(2) .prop-icon { background: rgba(139,92,246,0.08); color: var(--violet); }
+    .prop:nth-child(3) .prop-icon { background: rgba(245,158,11,0.10); color: var(--amber); }
+    .prop-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .prop h3 { font-size: 20px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+    .prop h3 .arrow { color: var(--gray-400); transition: transform var(--t-smooth), color var(--t-med); font-size: 16px; }
+    .prop:hover h3 .arrow { color: var(--blue); transform: translateX(4px); }
+    .prop p { font-size: 14px; margin: 0 0 16px; color: var(--gray-500); }
+    .prop-url { font-size: 12px; font-weight: 600; letter-spacing: 0.05em; color: var(--gray-400); }
 
     /* =========================================================
-       HEARTBEAT — signature viz
+       HEARTBEAT — signature viz (light theme)
        ========================================================= */
-    .heartbeat {
-      padding: 120px 0;
-    }
     .hb-shell {
       padding: 56px 40px;
-      background: linear-gradient(180deg, rgba(10,15,30,0.8), rgba(15,20,40,0.3));
-      border: 1px solid var(--border-2);
+      background: linear-gradient(180deg, var(--gray-50), var(--white));
+      border: 1px solid var(--gray-200);
       border-radius: 28px;
       position: relative; overflow: hidden;
     }
-    .hb-chevrons {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 8px;
-      margin-bottom: 32px;
-    }
+    .hb-chevrons { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 32px; }
     .hb-stage {
       position: relative;
       padding: 22px 24px 22px 38px;
-      background: linear-gradient(90deg, rgba(59,130,246,0.12), rgba(34,211,238,0.08));
-      border: 1px solid rgba(59,130,246,0.25);
+      background: linear-gradient(90deg, rgba(59,130,246,0.08), rgba(34,211,238,0.05));
+      border: 1px solid rgba(59,130,246,0.20);
       clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 50%, calc(100% - 16px) 100%, 0 100%, 16px 50%);
     }
     .hb-stage:first-child { clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 50%, calc(100% - 16px) 100%, 0 100%); padding-left: 24px; }
-    .hb-stage:last-child { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 16px 50%); }
-    .hb-stage h4 {
-      font-size: 15px; font-weight: 700;
-      color: var(--text);
-      margin: 0 0 4px;
-      letter-spacing: 0;
-    }
-    .hb-stage span {
-      font-size: 11px; font-family: var(--font-mono);
-      color: var(--brand-2); letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-    .hb-ekg {
-      width: 100%; height: 120px;
-      margin: 16px 0 24px;
-      position: relative;
-    }
+    .hb-stage:last-child  { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 16px 50%); }
+    .hb-stage h4 { font-size: 15px; font-weight: 700; color: var(--graphite); margin: 0 0 4px; letter-spacing: 0; }
+    .hb-stage span { font-size: 11px; color: var(--blue); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
+    .hb-ekg { width: 100%; height: 100px; margin: 12px 0 24px; }
     .hb-ekg svg { width: 100%; height: 100%; overflow: visible; }
-    .hb-ekg .ekg-line {
-      fill: none;
-      stroke: url(#ekgGrad);
-      stroke-width: 2;
-      stroke-linecap: round; stroke-linejoin: round;
-      filter: drop-shadow(0 0 6px rgba(59,130,246,0.6));
-    }
-    .hb-ekg .ekg-dash {
-      fill: none;
-      stroke: var(--brand-2);
-      stroke-width: 3;
+    .ekg-line { fill: none; stroke: url(#ekgGrad); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .ekg-dash {
+      fill: none; stroke: var(--blue); stroke-width: 3;
       stroke-linecap: round;
-      filter: drop-shadow(0 0 10px var(--brand-2));
+      filter: drop-shadow(0 0 6px rgba(59,130,246,0.45));
       stroke-dasharray: 80 2000;
       animation: ekg-run 4s linear infinite;
     }
-    @keyframes ekg-run {
-      0% { stroke-dashoffset: 0; }
-      100% { stroke-dashoffset: -2080; }
-    }
-    .hb-grid {
-      display: grid;
-      grid-template-columns: 180px repeat(5, 1fr);
-      gap: 6px;
-      font-size: 12px;
+    @keyframes ekg-run { to { stroke-dashoffset: -2080; } }
+
+    .hb-grid { display: grid; grid-template-columns: 180px repeat(5, 1fr); gap: 6px; }
+    .hb-grid .hb-col-label {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+      color: var(--gray-500); text-transform: uppercase;
+      text-align: center; padding-bottom: 8px;
     }
     .hb-grid .hb-row-label {
       display: flex; align-items: center;
-      padding-right: 16px;
-      font-size: 12px; font-weight: 600;
-      color: var(--text-soft);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+      padding-right: 12px;
+      font-size: 12px; font-weight: 600; color: var(--gray-700); letter-spacing: 0.02em;
     }
     .hb-cell {
       height: 52px;
-      background: rgba(255,255,255,0.02);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      position: relative;
-      transition: background var(--t-med);
+      transition: background var(--t-med), border-color var(--t-med);
     }
-    .hb-cell:hover { background: rgba(59,130,246,0.08); }
-    .hb-cell .dot {
-      width: 10px; height: 10px; border-radius: 50%;
-      background: var(--brand-2);
-      box-shadow: 0 0 10px var(--brand-2);
-      position: relative;
-    }
+    .hb-cell:hover { background: rgba(59,130,246,0.04); border-color: rgba(59,130,246,0.3); }
+    .hb-cell .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--blue); position: relative; box-shadow: 0 0 0 3px rgba(59,130,246,0.15); }
     .hb-cell .dot::after {
       content: ''; position: absolute; inset: 0; border-radius: 50%;
-      background: var(--brand-2); opacity: 0.4;
+      background: var(--blue); opacity: 0.3;
       animation: pulse-dot 3s ease-in-out infinite;
     }
-    .hb-cell[data-intensity="3"] .dot { width: 14px; height: 14px; background: var(--brand-2); }
-    .hb-cell[data-intensity="3"] .dot::after { animation-duration: 2s; }
-    .hb-cell[data-intensity="2"] .dot { width: 10px; height: 10px; background: var(--brand); }
-    .hb-cell[data-intensity="1"] .dot { width: 7px; height: 7px; background: var(--brand-3); opacity: 0.7; }
-    .hb-cell[data-intensity="1"] .dot::after { animation-duration: 4s; }
-    .hb-cell[data-intensity="0"] { background: transparent; border-color: rgba(255,255,255,0.03); }
+    .hb-cell[data-intensity="3"] .dot { width: 14px; height: 14px; background: var(--cyan); box-shadow: 0 0 0 3px rgba(34,211,238,0.18), 0 0 10px rgba(34,211,238,0.5); }
+    .hb-cell[data-intensity="3"] .dot::after { background: var(--cyan); animation-duration: 2s; }
+    .hb-cell[data-intensity="2"] .dot { width: 10px; height: 10px; background: var(--blue); }
+    .hb-cell[data-intensity="1"] .dot { width: 7px; height: 7px; background: var(--violet); box-shadow: 0 0 0 3px rgba(139,92,246,0.15); }
+    .hb-cell[data-intensity="1"] .dot::after { background: var(--violet); animation-duration: 4s; }
+    .hb-cell[data-intensity="0"] { background: transparent; border-style: dashed; border-color: var(--gray-200); }
     .hb-cell[data-intensity="0"] .dot { display: none; }
     .hb-legend {
       display: flex; gap: 20px; justify-content: flex-end;
-      margin-top: 20px; font-size: 12px; color: var(--text-dim);
-      font-family: var(--font-mono);
+      margin-top: 20px; font-size: 12px; color: var(--gray-500);
+      flex-wrap: wrap;
     }
-    .hb-legend span { display: inline-flex; align-items: center; gap: 6px; }
-    .hb-legend i {
-      width: 8px; height: 8px; border-radius: 50%; display: inline-block;
-      background: var(--brand-3); opacity: 0.7;
-    }
-    .hb-legend span:nth-child(2) i { background: var(--brand); width: 10px; height: 10px; }
-    .hb-legend span:nth-child(3) i { background: var(--brand-2); width: 12px; height: 12px; box-shadow: 0 0 8px var(--brand-2); }
+    .hb-legend span { display: inline-flex; align-items: center; gap: 8px; }
+    .hb-legend i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .hb-legend .l1 i { background: var(--violet); }
+    .hb-legend .l2 i { background: var(--blue); width: 10px; height: 10px; }
+    .hb-legend .l3 i { background: var(--cyan); width: 12px; height: 12px; box-shadow: 0 0 6px var(--cyan); }
 
     /* =========================================================
-       CAPABILITIES — What We Do
+       CAPABILITIES
        ========================================================= */
-    .capabilities-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
+    .caps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
     .cap {
       padding: 32px 28px;
-      background: rgba(15,20,40,0.5);
-      border: 1px solid var(--border);
+      background: var(--white); border: 1px solid var(--gray-200);
       border-radius: 16px;
-      transition: transform var(--t-smooth), border-color var(--t-smooth), background var(--t-smooth);
+      transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
-    .cap:hover {
-      transform: translateY(-4px);
-      border-color: var(--border-2);
-      background: rgba(21,27,51,0.7);
-    }
+    .cap:hover { transform: translateY(-4px); border-color: transparent; box-shadow: 0 16px 40px -16px rgba(0,0,0,0.12); }
     .cap-icon {
-      width: 44px; height: 44px;
-      border-radius: 10px;
-      background: rgba(59,130,246,0.12);
-      color: var(--brand-2);
+      width: 44px; height: 44px; border-radius: 10px;
+      background: rgba(59,130,246,0.08); color: var(--blue);
       display: inline-flex; align-items: center; justify-content: center;
       margin-bottom: 20px;
     }
-    .cap-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .cap-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
     .cap h3 { font-size: 17px; margin-bottom: 8px; }
-    .cap p { font-size: 14px; margin: 0; line-height: 1.6; }
+    .cap p { font-size: 14px; margin: 0; color: var(--gray-500); }
 
     /* =========================================================
        USE CASES
        ========================================================= */
-    .uc-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-    }
+    .uc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
     .uc {
       padding: 32px;
-      background: linear-gradient(180deg, rgba(21,27,51,0.6), rgba(15,20,40,0.3));
-      border: 1px solid var(--border-2);
+      background: var(--white); border: 1px solid var(--gray-200);
       border-radius: 18px;
       position: relative; overflow: hidden;
-      transition: transform var(--t-smooth), border-color var(--t-smooth);
+      transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
     .uc::after {
-      content: ''; position: absolute; top: 0; right: 0; width: 140px; height: 140px;
-      background: radial-gradient(circle, rgba(59,130,246,0.18), transparent 70%);
+      content: ''; position: absolute; top: 0; right: 0; width: 160px; height: 160px;
+      background: radial-gradient(circle, rgba(34,211,238,0.15), transparent 70%);
       transform: translate(50%, -50%);
       transition: transform var(--t-smooth), opacity var(--t-smooth);
-      opacity: 0.6;
+      opacity: 0;
     }
-    .uc:hover { transform: translateY(-4px); border-color: rgba(34,211,238,0.4); }
-    .uc:hover::after { opacity: 1; transform: translate(30%, -30%); }
-    .uc-head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .uc:hover { transform: translateY(-4px); border-color: transparent; box-shadow: 0 22px 50px -20px rgba(0,0,0,0.12); }
+    .uc:hover::after { opacity: 1; transform: translate(40%, -40%); }
+    .uc-head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; position: relative; z-index: 1; }
     .uc-num {
-      font-family: var(--font-mono); font-size: 12px; font-weight: 600;
-      color: var(--brand-2); background: rgba(34,211,238,0.08);
-      border: 1px solid rgba(34,211,238,0.3);
-      padding: 4px 10px; border-radius: 6px;
-      letter-spacing: 0.1em;
+      font-size: 12px; font-weight: 700; color: var(--blue);
+      background: rgba(59,130,246,0.08);
+      border: 1px solid rgba(59,130,246,0.2);
+      padding: 4px 10px; border-radius: 6px; letter-spacing: 0.1em;
     }
-    .uc h3 { font-size: 20px; margin: 0 0 4px; line-height: 1.3; }
-    .uc-ind { font-size: 12px; color: var(--text-dim); font-family: var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; }
+    .uc h3 { font-size: 19px; margin: 0 0 4px; line-height: 1.3; letter-spacing: -0.015em; }
+    .uc-ind { font-size: 11px; color: var(--gray-500); letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; }
+    .uc-body { position: relative; z-index: 1; }
     .uc-body > div { margin-bottom: 14px; }
     .uc-body strong {
-      display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--text-dim);
-      margin-bottom: 4px;
+      display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--gray-400); margin-bottom: 4px;
     }
-    .uc-body p { font-size: 14px; margin: 0; color: var(--text); line-height: 1.6; }
+    .uc-body p { font-size: 14px; margin: 0; color: var(--gray-700); line-height: 1.55; }
     .uc-outcome {
       margin-top: 16px; padding-top: 16px;
-      border-top: 1px solid var(--border);
+      border-top: 1px solid var(--gray-200);
       display: flex; align-items: center; gap: 10px;
-      font-size: 14px; font-weight: 600;
+      font-size: 14px; font-weight: 600; color: var(--gray-900);
     }
-    .uc-outcome .icon {
-      color: var(--success); display: inline-flex;
-    }
-    .uc-outcome .icon svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .uc-outcome .check { color: var(--green); display: inline-flex; flex-shrink: 0; }
+    .uc-outcome .check svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
 
     /* =========================================================
-       WIN PULSE — vertical timeline
+       WIN PULSE TIMELINE
        ========================================================= */
-    .pulse-timeline {
-      position: relative;
-      max-width: 980px; margin: 0 auto;
-      padding: 20px 0;
-    }
+    .pulse-timeline { position: relative; max-width: 980px; margin: 0 auto; }
     .pulse-spine {
-      position: absolute; top: 0; bottom: 0; left: 50%;
-      width: 2px; background: linear-gradient(180deg, transparent, var(--border-2), transparent);
+      position: absolute; top: 10px; bottom: 10px; left: 50%;
+      width: 2px;
+      background: linear-gradient(180deg, transparent, var(--gray-300), transparent);
       transform: translateX(-50%);
     }
-    .pulse-row {
-      display: grid; grid-template-columns: 1fr 40px 1fr;
-      gap: 16px; align-items: center;
-      margin-bottom: 28px;
-    }
+    .pulse-row { display: grid; grid-template-columns: 1fr 40px 1fr; gap: 16px; align-items: center; margin-bottom: 28px; }
     .pulse-card {
-      padding: 20px 24px;
-      background: rgba(15,20,40,0.8);
-      border: 1px solid var(--border-2);
+      padding: 22px 24px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
       border-radius: 14px;
-      backdrop-filter: blur(8px);
-      transition: transform var(--t-smooth), border-color var(--t-smooth);
+      transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
-    .pulse-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(34,211,238,0.4);
-    }
+    .pulse-card:hover { transform: translateY(-2px); border-color: transparent; box-shadow: 0 14px 32px -14px rgba(0,0,0,0.14); }
     .pulse-tag {
-      display: inline-flex; align-items: center; gap: 6px;
+      display: inline-flex; align-items: center;
       padding: 4px 10px; border-radius: 999px;
-      font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+      font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
       text-transform: uppercase;
       margin-bottom: 10px;
     }
-    .pulse-tag.mfg  { background: rgba(59,130,246,0.12);  color: #93C5FD; }
-    .pulse-tag.hc   { background: rgba(34,211,238,0.12);  color: #67E8F9; }
-    .pulse-tag.re   { background: rgba(139,92,246,0.12);  color: #C4B5FD; }
-    .pulse-tag.fin  { background: rgba(16,185,129,0.12);  color: #6EE7B7; }
-    .pulse-tag.trn  { background: rgba(245,158,11,0.12);  color: #FCD34D; }
-    .pulse-tag.ret  { background: rgba(239,68,68,0.12);   color: #FCA5A5; }
-    .pulse-tag.prs  { background: rgba(236,72,153,0.12);  color: #F9A8D4; }
-    .pulse-tag.gam  { background: rgba(168,85,247,0.12);  color: #D8B4FE; }
+    .pulse-tag.mfg { background: rgba(59,130,246,0.10); color: #1D4ED8; }
+    .pulse-tag.hc  { background: rgba(34,211,238,0.12); color: #0E7490; }
+    .pulse-tag.re  { background: rgba(139,92,246,0.10); color: #6D28D9; }
+    .pulse-tag.fin { background: rgba(16,185,129,0.10); color: #047857; }
+    .pulse-tag.trn { background: rgba(245,158,11,0.12); color: #B45309; }
+    .pulse-tag.ret { background: rgba(239,68,68,0.10);  color: #B91C1C; }
+    .pulse-tag.prs { background: rgba(236,72,153,0.10); color: #BE185D; }
+    .pulse-tag.gam { background: rgba(168,85,247,0.10); color: #6B21A8; }
     .pulse-card h4 { font-size: 15px; margin: 0 0 4px; }
-    .pulse-card .pulse-size { font-size: 12px; font-family: var(--font-mono); color: var(--text-dim); letter-spacing: 0.06em; margin-bottom: 10px; }
-    .pulse-card p { font-size: 13px; margin: 0; line-height: 1.5; }
+    .pulse-card .pulse-size { font-size: 11px; color: var(--gray-400); letter-spacing: 0.08em; margin-bottom: 10px; font-weight: 600; text-transform: uppercase; }
+    .pulse-card p { font-size: 13px; margin: 0; line-height: 1.55; }
     .pulse-node {
       width: 14px; height: 14px; border-radius: 50%;
-      background: var(--brand-2);
-      justify-self: center;
-      box-shadow: 0 0 14px var(--brand-2);
-      position: relative;
+      background: var(--cyan); justify-self: center;
+      box-shadow: 0 0 0 4px rgba(34,211,238,0.18);
+      position: relative; z-index: 2;
     }
     .pulse-node::after {
       content: ''; position: absolute; inset: 0; border-radius: 50%;
-      background: var(--brand-2); opacity: 0.4;
+      background: var(--cyan); opacity: 0.4;
       animation: pulse-dot 3s ease-in-out infinite;
     }
-    .pulse-row.left  { }
     .pulse-row.right > .pulse-card:nth-child(1) { visibility: hidden; }
     .pulse-row.left  > .pulse-card:nth-child(3) { visibility: hidden; }
 
     /* =========================================================
        INDUSTRIES
        ========================================================= */
-    .industries-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
+    .ind-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .ind {
+      padding: 28px 20px;
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: 14px; text-align: center;
+      transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
-    .industry {
-      padding: 28px 24px;
-      background: rgba(15,20,40,0.4);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      text-align: center;
-      transition: transform var(--t-smooth), border-color var(--t-smooth), background var(--t-smooth);
-    }
-    .industry:hover {
-      transform: translateY(-3px);
-      border-color: var(--border-2);
-      background: rgba(21,27,51,0.7);
-    }
-    .industry-icon {
-      width: 36px; height: 36px; margin: 0 auto 14px;
-      color: var(--brand-2);
+    .ind:hover { transform: translateY(-3px); border-color: transparent; box-shadow: 0 14px 30px -14px rgba(0,0,0,0.12); }
+    .ind-icon {
+      width: 44px; height: 44px; margin: 0 auto 12px;
+      border-radius: 12px;
+      background: rgba(59,130,246,0.08); color: var(--blue);
       display: inline-flex; align-items: center; justify-content: center;
     }
-    .industry-icon svg { width: 32px; height: 32px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-    .industry h4 { font-size: 14px; margin: 0 0 4px; font-weight: 700; }
-    .industry span { font-size: 11px; font-family: var(--font-mono); color: var(--text-dim); letter-spacing: 0.08em; text-transform: uppercase; }
+    .ind-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .ind h4 { font-size: 14px; margin: 0 0 2px; font-weight: 700; }
+    .ind span { font-size: 11px; color: var(--gray-500); letter-spacing: 0.06em; }
 
     /* =========================================================
-       HOW WE WORK — process
+       PROCESS
        ========================================================= */
-    .process {
-      position: relative;
-    }
-    .process-rail {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 16px;
-      position: relative;
-    }
+    .process-rail { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; }
     .process-rail::before {
       content: ''; position: absolute; top: 28px; left: 10%; right: 10%; height: 2px;
-      background: linear-gradient(90deg, transparent, var(--border-2) 15%, var(--border-2) 85%, transparent);
+      background: linear-gradient(90deg, transparent, var(--gray-200) 15%, var(--gray-200) 85%, transparent);
     }
-    .step {
-      text-align: center; position: relative;
-    }
+    .step { text-align: center; position: relative; }
     .step-num {
       width: 56px; height: 56px; margin: 0 auto 20px;
       border-radius: 50%;
-      background: var(--bg-2);
-      border: 2px solid var(--brand);
+      background: var(--white); border: 2px solid var(--blue);
       display: inline-flex; align-items: center; justify-content: center;
-      font-family: var(--font-mono); font-weight: 700; font-size: 18px;
-      color: var(--brand-2);
+      font-weight: 800; font-size: 16px; color: var(--blue);
       position: relative; z-index: 2;
-      box-shadow: 0 0 24px rgba(59,130,246,0.4);
-      transition: transform var(--t-smooth), box-shadow var(--t-smooth);
+      box-shadow: 0 4px 20px -6px rgba(59,130,246,0.4);
+      transition: transform var(--t-smooth), box-shadow var(--t-smooth), background var(--t-med), color var(--t-med);
     }
     .step:hover .step-num {
       transform: scale(1.05);
-      box-shadow: 0 0 32px rgba(34,211,238,0.6);
+      background: var(--blue); color: var(--white);
+      box-shadow: 0 8px 26px -6px rgba(59,130,246,0.6);
     }
     .step h4 { font-size: 16px; margin-bottom: 6px; }
-    .step p { font-size: 13px; margin: 0; line-height: 1.6; }
+    .step p { font-size: 13px; margin: 0; }
 
     /* =========================================================
        OUTCOMES
        ========================================================= */
-    .outcomes-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
-    .outcome {
-      padding: 26px 24px;
-      background: linear-gradient(180deg, rgba(21,27,51,0.6), rgba(15,20,40,0.3));
-      border: 1px solid var(--border);
+    .out-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .out {
+      padding: 28px 24px;
+      background: var(--white); border: 1px solid var(--gray-200);
       border-radius: 14px;
-      display: flex; gap: 16px; align-items: flex-start;
+      display: flex; gap: 18px; align-items: flex-start;
+      transition: transform var(--t-smooth), border-color var(--t-smooth), box-shadow var(--t-smooth);
     }
-    .outcome-kpi {
-      font-family: var(--font-mono); font-size: 28px; font-weight: 600;
-      line-height: 1;
-      background: var(--grad-brand);
+    .out:hover { transform: translateY(-3px); border-color: transparent; box-shadow: 0 14px 32px -14px rgba(0,0,0,0.10); }
+    .out-kpi {
+      font-size: 30px; font-weight: 900; line-height: 1;
+      background: var(--grad);
       -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-      flex-shrink: 0; min-width: 90px;
+      flex-shrink: 0; min-width: 80px; letter-spacing: -0.02em;
     }
-    .outcome h4 { font-size: 15px; margin: 0 0 4px; }
-    .outcome p { font-size: 13px; margin: 0; line-height: 1.5; }
+    .out h4 { font-size: 15px; margin: 0 0 4px; }
+    .out p { font-size: 13px; margin: 0; }
 
     /* =========================================================
-       AGENTS BUILDING AGENTS — callout
+       AGENTS BUILDING AGENTS
        ========================================================= */
-    .aba {
-      padding: 120px 0;
-    }
     .aba-shell {
       padding: 56px 48px;
       background:
-        radial-gradient(ellipse at top right, rgba(139,92,246,0.2), transparent 55%),
-        radial-gradient(ellipse at bottom left, rgba(34,211,238,0.18), transparent 55%),
-        linear-gradient(180deg, rgba(15,20,40,0.9), rgba(10,15,30,0.6));
-      border: 1px solid var(--border-2);
+        radial-gradient(ellipse at top right, rgba(139,92,246,0.14), transparent 55%),
+        radial-gradient(ellipse at bottom left, rgba(34,211,238,0.12), transparent 55%),
+        linear-gradient(180deg, var(--white), var(--gray-50));
+      border: 1px solid var(--gray-200);
       border-radius: 28px;
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 48px;
-      align-items: center;
-      position: relative; overflow: hidden;
+      display: grid; grid-template-columns: 1.2fr 1fr;
+      gap: 48px; align-items: center;
     }
-    .aba-text h2 { font-size: clamp(28px, 3.5vw, 42px); margin-bottom: 16px; }
-    .aba-text p { font-size: 16px; line-height: 1.7; margin-bottom: 0; }
     .aba-spec {
-      font-family: var(--font-mono); font-size: 12px;
-      color: var(--brand-2); letter-spacing: 0.1em;
-      text-transform: uppercase; margin-bottom: 20px;
+      display: inline-block;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--blue);
+      padding: 5px 12px; border-radius: 999px;
+      background: rgba(59,130,246,0.08);
+      margin-bottom: 18px;
     }
-    .aba-viz {
-      position: relative;
-      aspect-ratio: 1.1;
-      width: 100%;
-    }
+    .aba-text h2 { font-size: clamp(28px, 3.2vw, 40px); margin-bottom: 16px; }
+    .aba-text p { font-size: 16px; line-height: 1.7; margin-bottom: 0; color: var(--gray-600); }
+    .aba-viz { position: relative; aspect-ratio: 1.1; width: 100%; }
     .aba-viz svg { width: 100%; height: 100%; }
-    .aba-node { fill: var(--bg-2); stroke: var(--brand-2); stroke-width: 1.5; }
-    .aba-node.hub { fill: url(#hubGrad); stroke: var(--brand); stroke-width: 2; filter: drop-shadow(0 0 12px rgba(59,130,246,0.5)); }
-    .aba-link { stroke: rgba(34,211,238,0.3); stroke-width: 1; fill: none; }
-    .aba-link.active { stroke: var(--brand-2); stroke-width: 1.5; stroke-dasharray: 4 6; animation: dash 1.8s linear infinite; }
+    .aba-node { fill: var(--white); stroke: var(--blue); stroke-width: 1.5; }
+    .aba-node.hub { fill: url(#hubGrad); stroke: var(--blue); stroke-width: 2; filter: drop-shadow(0 0 10px rgba(59,130,246,0.4)); }
+    .aba-link { stroke: var(--gray-300); stroke-width: 1; fill: none; }
+    .aba-link.active { stroke: var(--blue); stroke-width: 1.5; stroke-dasharray: 4 6; animation: dash 1.8s linear infinite; }
     @keyframes dash { to { stroke-dashoffset: -20; } }
 
     /* =========================================================
-       CTA FINAL
+       FINAL CTA
        ========================================================= */
-    .cta-final {
-      padding: 120px 0 140px;
-      text-align: center;
-    }
     .cta-shell {
       padding: 80px 40px;
-      background:
-        radial-gradient(ellipse at center, rgba(59,130,246,0.15), transparent 70%),
-        linear-gradient(180deg, rgba(15,20,40,0.9), rgba(10,15,30,0.6));
-      border: 1px solid var(--border-2);
+      background: linear-gradient(135deg, var(--graphite), #1F2937);
       border-radius: 28px;
+      text-align: center;
       position: relative; overflow: hidden;
+      color: var(--white);
     }
-    .cta-shell::before, .cta-shell::after {
-      content: ''; position: absolute; width: 240px; height: 240px; border-radius: 50%;
-      filter: blur(80px); opacity: 0.5; pointer-events: none;
+    .cta-shell::before {
+      content: ''; position: absolute; top: -60px; left: -60px;
+      width: 260px; height: 260px; border-radius: 50%;
+      background: var(--blue); filter: blur(80px); opacity: 0.35;
     }
-    .cta-shell::before { top: -60px; left: -60px; background: var(--brand); }
-    .cta-shell::after  { bottom: -80px; right: -60px; background: var(--brand-3); }
+    .cta-shell::after {
+      content: ''; position: absolute; bottom: -80px; right: -60px;
+      width: 260px; height: 260px; border-radius: 50%;
+      background: var(--violet); filter: blur(80px); opacity: 0.3;
+    }
     .cta-shell > * { position: relative; z-index: 1; }
-    .cta-final h2 { font-size: clamp(36px, 5vw, 60px); margin-bottom: 20px; }
-    .cta-final p { font-size: 18px; max-width: 680px; margin: 0 auto 36px; line-height: 1.6; }
-    .cta-final .hero-ctas { margin-bottom: 24px; }
-    .cta-final .cta-url {
-      font-size: 13px; font-family: var(--font-mono);
-      color: var(--text-dim); letter-spacing: 0.1em;
-    }
-    .cta-final .cta-url a { color: var(--brand-2); }
+    .cta-shell .section-tag { color: var(--cyan); background: rgba(34,211,238,0.12); }
+    .cta-shell h2 { font-size: clamp(36px, 5vw, 56px); margin-bottom: 18px; color: var(--white); }
+    .cta-shell p { font-size: 17px; max-width: 640px; margin: 0 auto 32px; color: rgba(255,255,255,0.75); line-height: 1.6; }
+    .cta-shell .btn-primary { background: var(--white); color: var(--graphite); }
+    .cta-shell .btn-primary:hover { background: var(--blue); color: var(--white); }
+    .cta-shell .btn-secondary { color: var(--white); border-color: rgba(255,255,255,0.3); }
+    .cta-shell .btn-secondary:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+    .cta-url { margin-top: 24px; font-size: 13px; color: rgba(255,255,255,0.5); letter-spacing: 0.06em; }
+    .cta-url a { color: var(--cyan); }
+    .cta-url a:hover { text-decoration: underline; }
 
     /* =========================================================
        FOOTER
        ========================================================= */
-    .footer {
-      padding: 56px 0 32px;
-      border-top: 1px solid var(--border);
-    }
+    .footer { padding: 64px 0 32px; border-top: 1px solid var(--gray-200); background: var(--white); }
     .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 40px;
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; margin-bottom: 40px;
     }
-    .footer-brand p { font-size: 13px; color: var(--text-soft); max-width: 320px; margin: 14px 0 0; }
+    .footer-brand img { width: 32px; height: 32px; }
+    .footer-brand .nav-logo { margin-bottom: 14px; }
+    .footer-brand p { font-size: 13px; color: var(--gray-500); max-width: 320px; margin: 0; line-height: 1.6; }
     .footer-col h5 {
-      font-size: 12px; font-weight: 600; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--text-dim);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--gray-500);
       margin: 0 0 14px;
     }
     .footer-col ul { list-style: none; margin: 0; padding: 0; }
     .footer-col li { margin-bottom: 8px; }
-    .footer-col a { font-size: 13px; color: var(--text-soft); transition: color var(--t-med); }
-    .footer-col a:hover { color: var(--text); }
+    .footer-col a { font-size: 13px; color: var(--gray-700); transition: color var(--t-med); }
+    .footer-col a:hover { color: var(--graphite); }
     .footer-bottom {
       display: flex; justify-content: space-between; align-items: center;
       padding-top: 24px;
-      border-top: 1px solid var(--border);
-      font-size: 12px; color: var(--text-dim);
-      flex-wrap: wrap; gap: 16px;
-      font-family: var(--font-mono); letter-spacing: 0.06em;
+      border-top: 1px solid var(--gray-200);
+      font-size: 12px; color: var(--gray-400);
+      flex-wrap: wrap; gap: 16px; letter-spacing: 0.04em;
     }
 
     /* =========================================================
@@ -847,18 +689,17 @@
        ========================================================= */
     @media (max-width: 1024px) {
       section { padding: 96px 0; }
-      .metrics-grid { grid-template-columns: repeat(3, 1fr); row-gap: 40px; }
-      .metric:nth-child(4)::before, .metric:nth-child(1)::before { display: none; }
-      .offerings-grid, .capabilities-grid, .outcomes-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-metrics { gap: 28px; }
+      .metric-divider { display: none; }
+      .props-grid, .caps-grid, .out-grid { grid-template-columns: repeat(2, 1fr); }
       .uc-grid { grid-template-columns: 1fr; }
-      .industries-grid { grid-template-columns: repeat(3, 1fr); }
-      .process-rail { grid-template-columns: repeat(5, 1fr); gap: 8px; }
+      .ind-grid { grid-template-columns: repeat(3, 1fr); }
       .aba-shell { grid-template-columns: 1fr; padding: 40px 28px; }
-      .hb-chevrons { grid-template-columns: repeat(5, 1fr); gap: 4px; }
-      .hb-stage { padding: 14px 16px 14px 28px; font-size: 12px; }
+      .hb-chevrons { gap: 4px; }
+      .hb-stage { padding: 14px 18px 14px 28px; }
       .hb-stage h4 { font-size: 13px; }
       .hb-grid { grid-template-columns: 100px repeat(5, 1fr); gap: 4px; }
-      .hb-grid .hb-row-label { font-size: 10px; padding-right: 8px; }
+      .hb-grid .hb-row-label { font-size: 11px; padding-right: 6px; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 768px) {
@@ -867,32 +708,33 @@
       .nav-links {
         position: fixed; inset: var(--nav-h) 0 auto 0;
         flex-direction: column; gap: 0;
-        background: rgba(7,9,26,0.96); backdrop-filter: blur(20px);
+        background: rgba(255,255,255,0.98); backdrop-filter: blur(20px);
         padding: 16px var(--gutter);
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--gray-200);
         transform: translateY(-120%);
         transition: transform var(--t-smooth);
       }
       .nav-links.open { transform: translateY(0); }
-      .nav-links li { width: 100%; padding: 14px 0; border-bottom: 1px solid var(--border); }
+      .nav-links a { width: 100%; padding: 14px 0; border-bottom: 1px solid var(--gray-100); font-size: 15px; }
       .nav-toggle { display: block; }
-      .metrics-shell { padding: 32px 20px; }
-      .metrics-grid { grid-template-columns: repeat(2, 1fr); }
-      .metric:nth-child(3)::before { display: none; }
-      .offerings-grid, .capabilities-grid, .outcomes-grid { grid-template-columns: 1fr; }
-      .industries-grid { grid-template-columns: repeat(2, 1fr); }
-      .process-rail { grid-template-columns: 1fr; gap: 40px; }
-      .process-rail::before { left: 50%; top: 0; bottom: 0; width: 2px; height: auto; }
+      .hero-ctas { flex-direction: column; align-items: stretch; }
+      .hero-ctas .btn { justify-content: center; }
+      .props-grid, .caps-grid, .out-grid { grid-template-columns: 1fr; }
+      .ind-grid { grid-template-columns: repeat(2, 1fr); }
       .hb-shell { padding: 32px 20px; }
       .hb-chevrons { grid-template-columns: 1fr; }
       .hb-stage, .hb-stage:first-child, .hb-stage:last-child { clip-path: none; padding: 14px 18px; border-radius: 8px; }
       .hb-grid { grid-template-columns: 1fr; gap: 2px; }
-      .hb-grid .hb-row-label { padding: 10px 0 4px; }
+      .hb-grid .hb-col-label { display: none; }
+      .hb-grid .hb-row-label { padding: 10px 0 4px; background: var(--gray-50); padding-left: 12px; border-radius: 6px; }
       .hb-cell { height: 36px; }
-      .pulse-timeline { padding: 10px 0; }
+      .process-rail { grid-template-columns: 1fr; gap: 40px; }
+      .process-rail::before { left: 27px; top: 28px; bottom: 0; width: 2px; height: auto; right: auto; }
+      .step { text-align: left; padding-left: 70px; }
+      .step-num { margin: 0; position: absolute; left: 0; top: 0; }
       .pulse-spine { left: 20px; }
       .pulse-row { grid-template-columns: 40px 1fr; gap: 12px; }
-      .pulse-node { grid-column: 1; }
+      .pulse-node { grid-column: 1; justify-self: start; margin-left: 13px; }
       .pulse-row > .pulse-card:nth-child(1) { display: none; }
       .pulse-row.right > .pulse-card:nth-child(1) { display: none; }
       .pulse-row.left > .pulse-card:nth-child(3) { display: block; visibility: visible; grid-column: 2; }
@@ -901,169 +743,116 @@
       .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
     }
     @media (max-width: 480px) {
-      .hero h1 { font-size: 38px; }
-      .hero-ctas .btn, .cta-final .btn { width: 100%; justify-content: center; }
-      .metrics-shell { padding: 24px 16px; }
-      .metric-value { font-size: 32px; }
+      .hero-title { font-size: 38px; }
+      .metric-value, .metric-suffix { font-size: 34px; }
+      .hero-metrics { gap: 20px; }
       .footer-grid { grid-template-columns: 1fr; }
     }
 
-    /* Respect reduced motion */
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+      .fade-in { animation: none; }
+      .rev.rev-init { opacity: 1 !important; transform: none !important; }
     }
   </style>
 </head>
 <body>
 
-  <!-- ============================
-       NAV
-       ============================ -->
+  <!-- ============================================================ NAV ============================================================ -->
   <nav class="nav" id="nav" aria-label="Primary">
-    <div class="container">
-      <a href="#top" class="brand" aria-label="AISymmetric home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-word">AI<span class="accent">Symmetric</span></span>
+    <div class="nav-inner">
+      <a href="https://aisymmetricsolutions.com/" class="nav-logo" aria-label="AISymmetric home">
+        <img src="../assets/images/logo-transparent.png" alt="AISymmetric" />
+        <span>AISymmetric</span>
       </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#offerings">Services</a></li>
-        <li><a href="#heartbeat">Coverage</a></li>
-        <li><a href="#usecases">Use Cases</a></li>
-        <li><a href="#process">How We Work</a></li>
-        <li><a href="#contact" class="btn btn-ghost" style="padding:10px 18px;font-size:13px;">Book a Strategy Session</a></li>
-      </ul>
+      <div class="nav-links" id="navLinks">
+        <a href="https://aisymmetricsolutions.com/#services">Services</a>
+        <a href="#properties">Properties</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#usecases">Use Cases</a>
+        <a href="#process">How We Work</a>
+        <a href="https://aisymmetricsolutions.com/" title="Back to main site" style="color:var(--blue);">↩ Main Site</a>
+        <a href="#contact" class="nav-cta">Book a Strategy Session</a>
+      </div>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
 
-  <!-- ============================
-       HERO
-       ============================ -->
+  <!-- ============================================================ HERO ============================================================ -->
   <header class="hero" id="top">
-    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="container">
-      <span class="hero-badge"><span class="pulse"></span> The #1 AI Boutique for unsolvable problems</span>
-      <h1 class="reveal">
-        We build <span class="gradient-text">agents that build agents</span>—<br />
-        and ship them to production in weeks.
+      <div class="hero-badge fade-in fade-in-1"><span class="badge-dot"></span> Customer Success Stories</div>
+      <h1 class="hero-title fade-in fade-in-2">
+        Proof we <span class="gradient-text">solve the unsolvable</span>—<br />
+        and ship it to production.
       </h1>
-      <p class="hero-sub reveal">
-        AISymmetric is the boutique firm executives call when off-the-shelf stops working. We architect, build, and deploy agent-powered systems across AI, data, revenue platforms, and security—augmenting your people, processes, and technology until ROI shows up on the P&amp;L.
+      <p class="hero-subtitle fade-in fade-in-3">
+        The #1 AI boutique firm. Anonymized outcomes from customer engagements across AI, data, revenue platforms, and security. Every engagement augments your people, process, and technology—until ROI shows up on the P&amp;L.
       </p>
-      <div class="hero-ctas reveal">
+      <div class="hero-ctas fade-in fade-in-4">
         <a href="#usecases" class="btn btn-primary">
           Explore Use Cases
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="#contact" class="btn btn-ghost">Book a Strategy Session</a>
+        <a href="#contact" class="btn btn-secondary">Book a Strategy Session</a>
       </div>
-      <p class="hero-credibility reveal">
-        Strategy → Design → Build → Launch → Optimize. Under one roof. On one quarter's clock.
-      </p>
+      <div class="hero-metrics fade-in fade-in-5">
+        <div class="metric"><div class="metric-top"><span class="metric-value" data-count="50">50</span><span class="metric-suffix">+</span></div><span class="metric-label">SMB to Enterprise Success Stories</span></div>
+        <div class="metric-divider"></div>
+        <div class="metric"><div class="metric-top"><span class="metric-value" data-count="100">100</span><span class="metric-suffix">s</span></div><span class="metric-label">AI Agents Deployed</span></div>
+        <div class="metric-divider"></div>
+        <div class="metric"><div class="metric-top"><span class="metric-value" data-count="50">50</span><span class="metric-suffix">M+</span></div><span class="metric-label">Tokens Orchestrated</span></div>
+        <div class="metric-divider"></div>
+        <div class="metric"><div class="metric-top"><span class="metric-value" data-count="40">40</span><span class="metric-suffix">%</span></div><span class="metric-label">Avg. Efficiency Gain</span></div>
+        <div class="metric-divider"></div>
+        <div class="metric"><div class="metric-top"><span class="metric-value" data-count="98">98</span><span class="metric-suffix">%</span></div><span class="metric-label">Client Retention</span></div>
+      </div>
     </div>
   </header>
 
-  <!-- ============================
-       METRICS — rolling counters
-       ============================ -->
-  <section class="metrics" aria-label="By the numbers">
+  <!-- ============================================================ PROPERTIES ============================================================ -->
+  <section id="properties" aria-label="AISymmetric properties">
     <div class="container">
-      <div class="metrics-shell reveal">
-        <div class="metrics-grid">
-          <div class="metric">
-            <div class="metric-value" data-count="50" data-suffix="+">0</div>
-            <div class="metric-label">Client Engagements</div>
-          </div>
-          <div class="metric">
-            <div class="metric-value" data-count="100" data-suffix="+">0</div>
-            <div class="metric-label">AI Agents Deployed</div>
-          </div>
-          <div class="metric">
-            <div class="metric-value" data-count="50" data-suffix="M+">0</div>
-            <div class="metric-label">Tokens Orchestrated</div>
-          </div>
-          <div class="metric">
-            <div class="metric-value" data-count="40" data-suffix="%">0</div>
-            <div class="metric-label">Avg. Efficiency Gain</div>
-          </div>
-          <div class="metric">
-            <div class="metric-value" data-count="98" data-suffix="%">0</div>
-            <div class="metric-label">Client Retention</div>
-          </div>
-        </div>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">AISymmetric Properties</span>
+        <h2 class="section-title">Three practices. <span class="gradient-text">One team</span> that ships.</h2>
+        <p class="section-subtitle">AI strategy, digital execution, and security posture—delivered by the same senior operators. Choose your entry point.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- ============================
-       OFFERINGS — 3 pillars
-       ============================ -->
-  <section id="offerings" aria-label="Core offerings">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">What You Can Hire Us For</span>
-        <h2>Three practices. <span class="gradient-text">One team</span> that ships.</h2>
-        <p>AI strategy, digital execution, and security posture—delivered by the same senior operators, with no handoff loss between phases.</p>
-      </div>
-      <div class="offerings-grid reveal-stagger">
-        <div class="offering">
-          <div class="offering-icon">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
-          </div>
-          <h3>AI Consulting</h3>
-          <p>From first-principles strategy to custom agents you actually use. Roadmaps that survive contact with reality.</p>
-          <ul class="offering-list">
-            <li>Agentic system architecture</li>
-            <li>Custom LLM &amp; RAG builds</li>
-            <li>AI enablement &amp; coaching</li>
-            <li>Agentforce, OpenAI, Claude, Gemini</li>
-          </ul>
-        </div>
-        <div class="offering">
-          <div class="offering-icon">
-            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 10h18M8 4v14"/></svg>
-          </div>
-          <h3>Digital &amp; Platforms</h3>
+      <div class="props-grid">
+        <a href="https://aisymmetricsolutions.com/" class="prop rev rev-init">
+          <div class="prop-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></div>
+          <h3>AI Consulting <span class="arrow">→</span></h3>
+          <p>Strategy, architecture, and agentic systems. From first-principles roadmap to custom agents in production.</p>
+          <span class="prop-url">AISYMMETRICSOLUTIONS.COM</span>
+        </a>
+        <a href="https://aisymmetricdigital.com/" class="prop rev rev-init">
+          <div class="prop-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 10h18M8 4v14"/></svg></div>
+          <h3>Digital &amp; Platforms <span class="arrow">→</span></h3>
           <p>The revenue stack, integrated and accountable. Salesforce, HubSpot, Marketo, Boomi, Mulesoft, websites, portals.</p>
-          <ul class="offering-list">
-            <li>Salesforce &amp; Agentforce builds</li>
-            <li>Revenue Cloud, CPQ, CLM</li>
-            <li>Integrations &amp; data unification</li>
-            <li>Custom web, portals, calculators</li>
-          </ul>
-        </div>
-        <div class="offering">
-          <div class="offering-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 9.5-8 10-4.5-.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
-          </div>
-          <h3>Security &amp; Trust</h3>
-          <p>ISO 27001/27701-aligned builds, network posture hardening, and AI governance that stands up to audit.</p>
-          <ul class="offering-list">
-            <li>ISO 27001/27701 alignment</li>
-            <li>Website &amp; network hardening</li>
-            <li>AI governance &amp; guardrails</li>
-            <li>Security patching &amp; monitoring</li>
-          </ul>
-        </div>
+          <span class="prop-url">AISYMMETRICDIGITAL.COM</span>
+        </a>
+        <a href="https://aisymmetricaegis.com/" class="prop rev rev-init">
+          <div class="prop-icon"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 9.5-8 10-4.5-.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Aegis Security <span class="arrow">→</span></h3>
+          <p>ISO 27001/27701-aligned builds, network hardening, and AI governance that stands up to audit.</p>
+          <span class="prop-url">AISYMMETRICAEGIS.COM</span>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       HEARTBEAT — signature visualization
-       ============================ -->
-  <section id="heartbeat" class="heartbeat" aria-label="Delivery coverage">
+  <!-- ============================================================ DELIVERY HEARTBEAT ============================================================ -->
+  <section id="coverage" aria-label="Delivery coverage">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">The Delivery Heartbeat</span>
-        <h2>Where we've already <span class="gradient-text">delivered</span> — across the full execution arc.</h2>
-        <p>Every engagement moves through five stages, from advisory to scale. Pulse density below reflects depth of proven work per capability lane.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">The Delivery Heartbeat</span>
+        <h2 class="section-title">Where we've already <span class="gradient-text">delivered</span>—across the full execution arc.</h2>
+        <p class="section-subtitle">Every engagement moves through five stages, from advisory to scale. Pulse density below reflects depth of proven work per capability lane.</p>
       </div>
-
-      <div class="hb-shell reveal">
-        <!-- Chevron row -->
+      <div class="hb-shell rev rev-init">
         <div class="hb-chevrons">
           <div class="hb-stage"><span>01</span><h4>Advise</h4></div>
           <div class="hb-stage"><span>02</span><h4>Design</h4></div>
@@ -1071,10 +860,8 @@
           <div class="hb-stage"><span>04</span><h4>Deploy</h4></div>
           <div class="hb-stage"><span>05</span><h4>Scale</h4></div>
         </div>
-
-        <!-- EKG line -->
         <div class="hb-ekg" aria-hidden="true">
-          <svg viewBox="0 0 1000 120" preserveAspectRatio="none">
+          <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
             <defs>
               <linearGradient id="ekgGrad" x1="0" x2="1" y1="0" y2="0">
                 <stop offset="0%"  stop-color="#8B5CF6" stop-opacity="0.8"/>
@@ -1082,19 +869,17 @@
                 <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.8"/>
               </linearGradient>
             </defs>
-            <path class="ekg-line" d="M0 60 L140 60 L160 60 L170 30 L180 90 L190 40 L200 60 L340 60 L360 60 L370 20 L380 100 L390 50 L400 60 L540 60 L560 60 L570 30 L580 90 L590 40 L600 60 L740 60 L760 60 L770 25 L780 95 L790 45 L800 60 L940 60 L960 60 L970 30 L980 90 L990 50 L1000 60"/>
-            <path class="ekg-dash" d="M0 60 L140 60 L160 60 L170 30 L180 90 L190 40 L200 60 L340 60 L360 60 L370 20 L380 100 L390 50 L400 60 L540 60 L560 60 L570 30 L580 90 L590 40 L600 60 L740 60 L760 60 L770 25 L780 95 L790 45 L800 60 L940 60 L960 60 L970 30 L980 90 L990 50 L1000 60"/>
+            <path class="ekg-line" d="M0 50 L140 50 L160 50 L170 20 L180 80 L190 35 L200 50 L340 50 L360 50 L370 10 L380 90 L390 45 L400 50 L540 50 L560 50 L570 20 L580 80 L590 35 L600 50 L740 50 L760 50 L770 15 L780 85 L790 40 L800 50 L940 50 L960 50 L970 20 L980 80 L990 45 L1000 50"/>
+            <path class="ekg-dash" d="M0 50 L140 50 L160 50 L170 20 L180 80 L190 35 L200 50 L340 50 L360 50 L370 10 L380 90 L390 45 L400 50 L540 50 L560 50 L570 20 L580 80 L590 35 L600 50 L740 50 L760 50 L770 15 L780 85 L790 40 L800 50 L940 50 L960 50 L970 20 L980 80 L990 45 L1000 50"/>
           </svg>
         </div>
-
-        <!-- Capability × Stage grid -->
         <div class="hb-grid">
           <div></div>
-          <div class="hb-row-label" style="justify-self:center;">Advise</div>
-          <div class="hb-row-label" style="justify-self:center;">Design</div>
-          <div class="hb-row-label" style="justify-self:center;">Build</div>
-          <div class="hb-row-label" style="justify-self:center;">Deploy</div>
-          <div class="hb-row-label" style="justify-self:center;">Scale</div>
+          <div class="hb-col-label">Advise</div>
+          <div class="hb-col-label">Design</div>
+          <div class="hb-col-label">Build</div>
+          <div class="hb-col-label">Deploy</div>
+          <div class="hb-col-label">Scale</div>
 
           <div class="hb-row-label">AI &amp; Agents</div>
           <div class="hb-cell" data-intensity="3"><div class="dot"></div></div>
@@ -1138,467 +923,285 @@
           <div class="hb-cell" data-intensity="2"><div class="dot"></div></div>
           <div class="hb-cell" data-intensity="1"><div class="dot"></div></div>
         </div>
-
         <div class="hb-legend">
-          <span><i></i> Emerging</span>
-          <span><i></i> Proven</span>
-          <span><i></i> Deep bench</span>
+          <span class="l1"><i></i> Emerging</span>
+          <span class="l2"><i></i> Proven</span>
+          <span class="l3"><i></i> Deep bench</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       CAPABILITIES — What We Do
-       ============================ -->
+  <!-- ============================================================ CAPABILITIES ============================================================ -->
   <section aria-label="Capabilities">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">What We Do</span>
-        <h2>Six capability pillars. <span class="gradient-text">One accountable team.</span></h2>
-        <p>Strategy that maps to code. Code that maps to outcomes. No agency-to-agency handoffs.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Six capability pillars. <span class="gradient-text">One accountable team.</span></h2>
+        <p class="section-subtitle">Strategy that maps to code. Code that maps to outcomes. No agency-to-agency handoffs.</p>
       </div>
-      <div class="capabilities-grid reveal-stagger">
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M16.9 16.9l2.2 2.2M4.9 19.1l2.1-2.1M16.9 7.1l2.2-2.2"/></svg></div>
-          <h3>AI &amp; Agentic Systems</h3>
-          <p>Autonomous agents, copilots, and multi-agent orchestrations that execute real workflows—not demos.</p>
-        </div>
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 4v16"/></svg></div>
-          <h3>Salesforce &amp; Customer Platforms</h3>
-          <p>Sales, Service, Marketing, Revenue Cloud, Agentforce, Manufacturing Cloud, CPQ, CLM—implemented and integrated.</p>
-        </div>
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/><circle cx="18" cy="17" r="3"/></svg></div>
-          <h3>Automation &amp; Integration</h3>
-          <p>Boomi, Mulesoft, Zapier, custom APEX. 400+ connection patterns shipped across CRMs, ERPs, and data warehouses.</p>
-        </div>
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
-          <h3>Data, Reporting &amp; Dashboards</h3>
-          <p>Tableau, Salesforce reporting, custom warehouses. Democratize the numbers executives actually need to steer on.</p>
-        </div>
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 12h8M8 15h5"/></svg></div>
-          <h3>Web, Portals &amp; Internal Tools</h3>
-          <p>Marketing sites, customer portals, broker valuation tools, annuity calculators—purpose-built for the workflow.</p>
-        </div>
-        <div class="cap">
-          <div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-          <h3>Rapid Prototyping to Production</h3>
-          <p>From whiteboard to live system in weeks, not quarters. We build fast without breaking audit and compliance.</p>
-        </div>
+      <div class="caps-grid">
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M16.9 16.9l2.2 2.2M4.9 19.1l2.1-2.1M16.9 7.1l2.2-2.2"/></svg></div><h3>AI &amp; Agentic Systems</h3><p>Autonomous agents, copilots, and multi-agent orchestrations that execute real workflows—not demos.</p></div>
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 4v16"/></svg></div><h3>Salesforce &amp; Customer Platforms</h3><p>Sales, Service, Marketing, Revenue Cloud, Agentforce, Manufacturing Cloud, CPQ, CLM—implemented and integrated.</p></div>
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/><circle cx="18" cy="17" r="3"/></svg></div><h3>Automation &amp; Integration</h3><p>Boomi, Mulesoft, Zapier, custom APEX. 400+ connection patterns shipped across CRMs, ERPs, and data warehouses.</p></div>
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div><h3>Data, Reporting &amp; Dashboards</h3><p>Tableau, Salesforce reporting, custom warehouses. Democratize the numbers executives actually need to steer on.</p></div>
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 12h8M8 15h5"/></svg></div><h3>Web, Portals &amp; Internal Tools</h3><p>Marketing sites, customer portals, broker valuation tools, annuity calculators—purpose-built for the workflow.</p></div>
+        <div class="cap rev rev-init"><div class="cap-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Rapid Prototyping to Production</h3><p>From whiteboard to live system in weeks, not quarters. We build fast without breaking audit and compliance.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       USE CASES
-       ============================ -->
+  <!-- ============================================================ USE CASES ============================================================ -->
   <section id="usecases" aria-label="Customer use cases">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Proven Use Cases</span>
-        <h2>Real problems. <span class="gradient-text">Shipped solutions.</span></h2>
-        <p>Anonymized outcomes from active engagements across manufacturing, healthcare, real estate, finance, and more.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">Proven Use Cases</span>
+        <h2 class="section-title">Real problems. <span class="gradient-text">Shipped solutions.</span></h2>
+        <p class="section-subtitle">Anonymized outcomes from active engagements across manufacturing, healthcare, real estate, finance, and more.</p>
       </div>
-      <div class="uc-grid reveal-stagger">
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">01</span>
-            <div>
-              <h3>Agentforce-Driven Manufacturing Sales Motion</h3>
-              <div class="uc-ind">Manufacturing · Enterprise</div>
-            </div>
-          </div>
+      <div class="uc-grid">
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">01</span><div><h3>Agentforce-Driven Manufacturing Sales Motion</h3><div class="uc-ind">Manufacturing · Enterprise</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>Global industrial manufacturer ran 50+ disconnected apps, a bespoke SAP SKU taxonomy, and a 2,000+ user sales org stuck in tribal knowledge.</p></div>
             <div><strong>Solution</strong><p>3–5 year Salesforce Manufacturing Cloud + Agentforce roadmap. Phase-1 delivery across Sales, Service, and Marketing Cloud Engagement multi-org. Boomi integrations, OCM, and training.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Cleaned 60K+ SKUs, unified CRM of record, trained 2K users.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Cleaned 60K+ SKUs, unified CRM of record, trained 2K users.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">02</span>
-            <div>
-              <h3>Territory-Level LLM on Private Azure Stack</h3>
-              <div class="uc-ind">Healthcare · MedTech</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">02</span><div><h3>Territory-Level LLM on Private Azure Stack</h3><div class="uc-ind">Healthcare · MedTech</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>Specialty healthcare sales team needed field-ready intelligence without exposing PHI to public LLMs or pulling data out of their SQL servers.</p></div>
             <div><strong>Solution</strong><p>Containerized local LLM wired to SQL Server + Tableau on Azure, with territory-aware prompting and a Python runtime layer for rep-facing insights.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> AI inside the perimeter. Zero data egress.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> AI inside the perimeter. Zero data egress.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">03</span>
-            <div>
-              <h3>Custom Broker Opinion of Value (BOV) System</h3>
-              <div class="uc-ind">Commercial Real Estate</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">03</span><div><h3>Custom Broker Opinion of Value (BOV) System</h3><div class="uc-ind">Commercial Real Estate</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>Commercial brokers spent days assembling BOVs manually, pulling from fragmented market data and inconsistent templates.</p></div>
             <div><strong>Solution</strong><p>Custom-built BOV platform with AI-assisted data cleansing, comp pulls, and standardized deliverable generation—backed by democratized market data.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Days to hours, with consistent analyst-grade output.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Days to hours, with consistent analyst-grade output.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">04</span>
-            <div>
-              <h3>Self-Learning Outbound Lead Engine</h3>
-              <div class="uc-ind">Financial Services · SMB</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">04</span><div><h3>Self-Learning Outbound Lead Engine</h3><div class="uc-ind">Financial Services · SMB</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A financial product distributor needed to work 100K+ inbound leads without hiring a call-center org.</p></div>
             <div><strong>Solution</strong><p>Custom ingestion pipeline, self-learning AI scoring model, task and automation sync with HubSpot, plus a bespoke annuity calculator for reps in the field.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> 100K+ leads processed. Scoring model improves weekly.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> 100K+ leads processed. Scoring model improves weekly.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">05</span>
-            <div>
-              <h3>Billing Leakage Prevention &amp; SPIFF Engine</h3>
-              <div class="uc-ind">Professional Services · Mid-Market</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">05</span><div><h3>Billing Leakage Prevention &amp; SPIFF Engine</h3><div class="uc-ind">Professional Services · Mid-Market</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A publishing group was losing measurable revenue to unbilled receivables and had no rep-level incentive structure to chase them.</p></div>
             <div><strong>Solution</strong><p>Custom receivables-monitoring system, rep compensation SPIFF layer, Salesforce best-practice rebuild, and a new data warehouse feeding Tableau exec dashboards.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Leakage stopped. Reps aligned to outcomes.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Leakage stopped. Reps aligned to outcomes.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">06</span>
-            <div>
-              <h3>Dynamics 365 Automation + Outbound AI Stack</h3>
-              <div class="uc-ind">Transportation · Training</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">06</span><div><h3>Dynamics 365 Automation + Outbound AI Stack</h3><div class="uc-ind">Transportation · Training</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A national training institute ran Microsoft Dynamics with brittle automations, a WordPress site full of technical debt, and no outbound motion.</p></div>
             <div><strong>Solution</strong><p>Full Microsoft suite management, Dynamics automation, webscraper-driven data enrichment, new outbound GTM, agent-assisted support, and security patching across the stack.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Data democratized. Lead engine stood up. Posture hardened.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Data democratized. Lead engine stood up. Posture hardened.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">07</span>
-            <div>
-              <h3>Revenue Cloud + CLM Quoting Transformation</h3>
-              <div class="uc-ind">Industrial Distribution</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">07</span><div><h3>Revenue Cloud + CLM Quoting Transformation</h3><div class="uc-ind">Industrial Distribution</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A specialty coatings distributor had quoting scattered across spreadsheets and email with no contract governance.</p></div>
             <div><strong>Solution</strong><p>Full Salesforce Revenue Cloud implementation with CLM layered on top. Quote cycle automated, approvals codified, redlines tracked.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Quote-to-cash visible on one dashboard.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Quote-to-cash visible on one dashboard.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">08</span>
-            <div>
-              <h3>Executive Dashboards That Cut Tool Spend</h3>
-              <div class="uc-ind">Healthcare · Population Health</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">08</span><div><h3>Executive Dashboards That Cut Tool Spend</h3><div class="uc-ind">Healthcare · Population Health</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>Leadership was paying premium Tableau seat fees just to see what Salesforce already knew.</p></div>
             <div><strong>Solution</strong><p>Custom Salesforce reporting pack replacing 25 Tableau views, right-sized reporting layer, exec-grade GTM dashboards for the sales cycle.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Tool spend cut. Board visibility improved.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Tool spend cut. Board visibility improved.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">09</span>
-            <div>
-              <h3>Marketing Cloud Engagement Rollout + Enablement</h3>
-              <div class="uc-ind">Home Services · Regional</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">09</span><div><h3>Marketing Cloud Engagement Rollout + Enablement</h3><div class="uc-ind">Home Services · Regional</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A regional home-services brand was captive to a third-party marketing OS with no data portability or tuning ability.</p></div>
             <div><strong>Solution</strong><p>Migrated to Salesforce Marketing Cloud Account Engagement. Trained the team, evaluated site performance, and rebuilt the campaign architecture from scratch.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Data owned. Campaigns compounding.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> Data owned. Campaigns compounding.</div>
         </article>
-
-        <article class="uc">
-          <div class="uc-head">
-            <span class="uc-num">10</span>
-            <div>
-              <h3>WordPress Migration + Lead Gen + Agentforce</h3>
-              <div class="uc-ind">Real Estate · Residential</div>
-            </div>
-          </div>
+        <article class="uc rev rev-init">
+          <div class="uc-head"><span class="uc-num">10</span><div><h3>WordPress Migration + Lead Gen + Agentforce</h3><div class="uc-ind">Real Estate · Residential</div></div></div>
           <div class="uc-body">
             <div><strong>Problem</strong><p>A residential brokerage was on a legacy site with no inbound motion, no CRM of record, and no tooling for agents beyond email.</p></div>
             <div><strong>Solution</strong><p>WordPress migration, full Salesforce implementation, Agentforce rollout, Zapier-hosted integrations, and a new inbound lead-generation engine.</p></div>
           </div>
-          <div class="uc-outcome"><span class="icon"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> First scalable lead engine in the firm's history.</div>
+          <div class="uc-outcome"><span class="check"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span> First scalable lead engine in the firm's history.</div>
         </article>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       WIN PULSE — timeline
-       ============================ -->
+  <!-- ============================================================ WIN PULSE TIMELINE ============================================================ -->
   <section id="winpulse" aria-label="Recent wins timeline">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Win Pulse</span>
-        <h2>Recent wins, <span class="gradient-text">anonymized by design</span>.</h2>
-        <p>Industry, size, and what we shipped. Company names stay with their owners.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">Win Pulse</span>
+        <h2 class="section-title">Recent wins, <span class="gradient-text">anonymized by design</span>.</h2>
+        <p class="section-subtitle">Industry, size, and what we shipped. Company names stay with their owners.</p>
       </div>
-
-      <div class="pulse-timeline reveal">
+      <div class="pulse-timeline">
         <div class="pulse-spine" aria-hidden="true"></div>
-
-        <div class="pulse-row left">
+        <div class="pulse-row left rev rev-init">
           <div class="pulse-card">
             <span class="pulse-tag mfg">Manufacturing</span>
             <h4>Phase-1 Manufacturing Cloud + Agentforce</h4>
-            <div class="pulse-size">GLOBAL ENTERPRISE · 2,000+ SEATS</div>
+            <div class="pulse-size">Global Enterprise · 2,000+ Seats</div>
             <p>Multi-org Marketing Cloud, Boomi integrations, SAP SKU hygiene, OCM and user training.</p>
           </div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card"></div>
         </div>
-
-        <div class="pulse-row right">
+        <div class="pulse-row right rev rev-init">
           <div class="pulse-card"></div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card">
             <span class="pulse-tag hc">Healthcare</span>
             <h4>Private Territory LLM on Azure</h4>
-            <div class="pulse-size">MID-MARKET · SPECIALTY CARE</div>
+            <div class="pulse-size">Mid-Market · Specialty Care</div>
             <p>Containerized LLM with Python runtime, SQL Server + Tableau plumbing, zero public-egress posture.</p>
           </div>
         </div>
-
-        <div class="pulse-row left">
+        <div class="pulse-row left rev rev-init">
           <div class="pulse-card">
             <span class="pulse-tag re">Real Estate</span>
             <h4>Broker Opinion of Value Platform</h4>
-            <div class="pulse-size">COMMERCIAL BROKERAGE · NATIONAL</div>
+            <div class="pulse-size">Commercial Brokerage · National</div>
             <p>AI-assisted comp pulls, cleansed market data, standardized BOV deliverable generation.</p>
           </div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card"></div>
         </div>
-
-        <div class="pulse-row right">
+        <div class="pulse-row right rev rev-init">
           <div class="pulse-card"></div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card">
             <span class="pulse-tag fin">Financial Services</span>
             <h4>Self-Learning Outbound Lead Engine</h4>
-            <div class="pulse-size">SMB · 100K+ LEADS</div>
+            <div class="pulse-size">SMB · 100K+ Leads</div>
             <p>Custom scoring model, HubSpot sync, annuity calculator for field reps.</p>
           </div>
         </div>
-
-        <div class="pulse-row left">
+        <div class="pulse-row left rev rev-init">
           <div class="pulse-card">
             <span class="pulse-tag prs">Professional Services</span>
             <h4>Billing Leakage + SPIFF Engine</h4>
-            <div class="pulse-size">MID-MARKET · PUBLISHING</div>
+            <div class="pulse-size">Mid-Market · Publishing</div>
             <p>Receivables monitoring, rep compensation SPIFF, Salesforce rebuild, Tableau exec dashboards.</p>
           </div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card"></div>
         </div>
-
-        <div class="pulse-row right">
+        <div class="pulse-row right rev rev-init">
           <div class="pulse-card"></div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card">
             <span class="pulse-tag trn">Transportation</span>
             <h4>Dynamics 365 + Outbound AI Stack</h4>
-            <div class="pulse-size">NATIONAL · TRAINING INSTITUTE</div>
+            <div class="pulse-size">National · Training Institute</div>
             <p>Microsoft-suite management, webscraper enrichment, security patching, agent-assisted support.</p>
           </div>
         </div>
-
-        <div class="pulse-row left">
+        <div class="pulse-row left rev rev-init">
           <div class="pulse-card">
             <span class="pulse-tag mfg">Industrial Distribution</span>
             <h4>Revenue Cloud + CLM Rollout</h4>
-            <div class="pulse-size">MID-MARKET · COATINGS</div>
+            <div class="pulse-size">Mid-Market · Coatings</div>
             <p>Quote-to-cash automation, contract lifecycle governance, approvals codified.</p>
           </div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card"></div>
         </div>
-
-        <div class="pulse-row right">
+        <div class="pulse-row right rev rev-init">
           <div class="pulse-card"></div>
           <div class="pulse-node" aria-hidden="true"></div>
           <div class="pulse-card">
             <span class="pulse-tag gam">Gaming</span>
             <h4>Advisory + New Product Launch</h4>
-            <div class="pulse-size">INTERNATIONAL · PUBLISHER</div>
+            <div class="pulse-size">International · Publisher</div>
             <p>Executive advisory, community launch (Discord + Slack + Influencer), marketing stack assembly.</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       INDUSTRIES
-       ============================ -->
+  <!-- ============================================================ INDUSTRIES ============================================================ -->
   <section aria-label="Industries served">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Industries We Serve</span>
-        <h2>One playbook. <span class="gradient-text">Adapted per vertical.</span></h2>
-        <p>Different business models, same discipline: understand the domain, ship what moves the P&amp;L.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">Industries We Serve</span>
+        <h2 class="section-title">One playbook. <span class="gradient-text">Adapted per vertical.</span></h2>
+        <p class="section-subtitle">Different business models, same discipline: understand the domain, ship what moves the P&amp;L.</p>
       </div>
-      <div class="industries-grid reveal-stagger">
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20V10l6-4 6 4v10M10 20v-6h4v6"/></svg></div>
-          <h4>Manufacturing</h4><span>Mfg Cloud · SAP</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20M7 7l10 10M17 7L7 17"/></svg></div>
-          <h4>Healthcare / MedTech</h4><span>Private LLM</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div>
-          <h4>Real Estate</h4><span>BOV · Agentforce</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M3 17h18M3 12h18M3 7h18M7 7v10M17 7v10"/></svg></div>
-          <h4>Financial Services</h4><span>Outbound · Scoring</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M4 17l1-4 2-5h10l2 5 1 4M4 17v2a1 1 0 001 1h2a1 1 0 001-1v-2M16 17v2a1 1 0 001 1h2a1 1 0 001-1v-2M8 13h8"/></svg></div>
-          <h4>Transportation</h4><span>MSFT · Dynamics</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M6 2v6a4 4 0 008 0V2M6 2h8M8 14h8a4 4 0 014 4v4H4v-4a4 4 0 014-4z"/></svg></div>
-          <h4>Professional Services</h4><span>PE · Portfolio Ops</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-          <h4>Retail &amp; Commerce</h4><span>Shopify · HubSpot</span>
-        </div>
-        <div class="industry">
-          <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M20 7h-9.5L8 5H4v14h16V7z"/><path d="M4 11h16"/></svg></div>
-          <h4>Home Services &amp; HVAC</h4><span>Field Ops</span>
-        </div>
+      <div class="ind-grid">
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20V10l6-4 6 4v10M10 20v-6h4v6"/></svg></div><h4>Manufacturing</h4><span>Mfg Cloud · SAP</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M8 8l8 8M16 8l-8 8"/></svg></div><h4>Healthcare / MedTech</h4><span>Private LLM</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><h4>Real Estate</h4><span>BOV · Agentforce</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M3 17h18M3 12h18M3 7h18M7 7v10M17 7v10"/></svg></div><h4>Financial Services</h4><span>Outbound · Scoring</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M4 17l1-4 2-5h10l2 5 1 4M4 17v2a1 1 0 001 1h2a1 1 0 001-1v-2M16 17v2a1 1 0 001 1h2a1 1 0 001-1v-2M8 13h8"/></svg></div><h4>Transportation</h4><span>MSFT · Dynamics</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M6 2v6a4 4 0 008 0V2M6 2h8M8 14h8a4 4 0 014 4v4H4v-4a4 4 0 014-4z"/></svg></div><h4>Professional Services</h4><span>PE · Portfolio Ops</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h4>Retail &amp; Commerce</h4><span>Shopify · HubSpot</span></div>
+        <div class="ind rev rev-init"><div class="ind-icon"><svg viewBox="0 0 24 24"><path d="M20 7h-9.5L8 5H4v14h16V7z"/><path d="M4 11h16"/></svg></div><h4>Home Services &amp; HVAC</h4><span>Field Ops</span></div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       HOW WE WORK
-       ============================ -->
-  <section id="process" class="process" aria-label="How we work">
+  <!-- ============================================================ HOW WE WORK ============================================================ -->
+  <section id="process" aria-label="How we work">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">How We Work</span>
-        <h2>A five-step <span class="gradient-text">delivery arc</span> that survives the real world.</h2>
-        <p>Fast-moving, pragmatic, senior-only. We bring the bench. You bring the bottleneck.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">How We Work</span>
+        <h2 class="section-title">A five-step <span class="gradient-text">delivery arc</span> that survives the real world.</h2>
+        <p class="section-subtitle">Fast-moving, pragmatic, senior-only. We bring the bench. You bring the bottleneck.</p>
       </div>
-      <div class="process-rail reveal-stagger">
-        <div class="step">
-          <div class="step-num">01</div>
-          <h4>Discover</h4>
-          <p>Working sessions with operators. We name the bottleneck, not the buzzword.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">02</div>
-          <h4>Design</h4>
-          <p>Architecture, data model, and success metrics agreed before a line of code.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">03</div>
-          <h4>Build</h4>
-          <p>Senior engineering. Weekly demos. Agents that actually run in your environment.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">04</div>
-          <h4>Launch</h4>
-          <p>OCM, training, governance, documentation. Rolled out, not dropped off.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">05</div>
-          <h4>Optimize</h4>
-          <p>Post-launch tuning against the metrics we agreed on in Design. No vanity dashboards.</p>
-        </div>
+      <div class="process-rail">
+        <div class="step rev rev-init"><div class="step-num">01</div><h4>Discover</h4><p>Working sessions with operators. We name the bottleneck, not the buzzword.</p></div>
+        <div class="step rev rev-init"><div class="step-num">02</div><h4>Design</h4><p>Architecture, data model, and success metrics agreed before a line of code.</p></div>
+        <div class="step rev rev-init"><div class="step-num">03</div><h4>Build</h4><p>Senior engineering. Weekly demos. Agents that actually run in your environment.</p></div>
+        <div class="step rev rev-init"><div class="step-num">04</div><h4>Launch</h4><p>OCM, training, governance, documentation. Rolled out, not dropped off.</p></div>
+        <div class="step rev rev-init"><div class="step-num">05</div><h4>Optimize</h4><p>Post-launch tuning against the metrics we agreed on in Design. No vanity dashboards.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       OUTCOMES
-       ============================ -->
+  <!-- ============================================================ OUTCOMES ============================================================ -->
   <section aria-label="Business outcomes">
     <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Outcomes &amp; Value</span>
-        <h2>Measurable wins. <span class="gradient-text">Not vibes.</span></h2>
-        <p>Representative outcomes from active engagements. We commit to metrics before we commit to scope.</p>
+      <div class="section-head rev rev-init">
+        <span class="section-tag">Outcomes &amp; Value</span>
+        <h2 class="section-title">Measurable wins. <span class="gradient-text">Not vibes.</span></h2>
+        <p class="section-subtitle">Representative outcomes from active engagements. We commit to metrics before we commit to scope.</p>
       </div>
-      <div class="outcomes-grid reveal-stagger">
-        <div class="outcome">
-          <div class="outcome-kpi">2K+</div>
-          <div><h4>Users Trained</h4><p>Enterprise Agentforce rollout, cross-org.</p></div>
-        </div>
-        <div class="outcome">
-          <div class="outcome-kpi">60K+</div>
-          <div><h4>SKUs Normalized</h4><p>Multi-language SAP data cleanup for mfg CFO.</p></div>
-        </div>
-        <div class="outcome">
-          <div class="outcome-kpi">100K+</div>
-          <div><h4>Leads Ingested</h4><p>Self-learning scoring engine for outbound.</p></div>
-        </div>
-        <div class="outcome">
-          <div class="outcome-kpi">400+</div>
-          <div><h4>Integration Connections</h4><p>Salesforce ↔ Marketo ↔ APEX ↔ downstream.</p></div>
-        </div>
-        <div class="outcome">
-          <div class="outcome-kpi">25+</div>
-          <div><h4>Tableau Views Retired</h4><p>Replaced with right-sized SF reporting.</p></div>
-        </div>
-        <div class="outcome">
-          <div class="outcome-kpi">~Weeks</div>
-          <div><h4>From Strategy to Shipped</h4><p>Typical time-to-value on net-new agent builds.</p></div>
-        </div>
+      <div class="out-grid">
+        <div class="out rev rev-init"><div class="out-kpi">2K+</div><div><h4>Users Trained</h4><p>Enterprise Agentforce rollout, cross-org.</p></div></div>
+        <div class="out rev rev-init"><div class="out-kpi">60K+</div><div><h4>SKUs Normalized</h4><p>Multi-language SAP data cleanup for mfg CFO.</p></div></div>
+        <div class="out rev rev-init"><div class="out-kpi">100K+</div><div><h4>Leads Ingested</h4><p>Self-learning scoring engine for outbound.</p></div></div>
+        <div class="out rev rev-init"><div class="out-kpi">400+</div><div><h4>Integrations</h4><p>Salesforce ↔ Marketo ↔ APEX ↔ downstream.</p></div></div>
+        <div class="out rev rev-init"><div class="out-kpi">25+</div><div><h4>Tableau Views Retired</h4><p>Replaced with right-sized SF reporting.</p></div></div>
+        <div class="out rev rev-init"><div class="out-kpi">Weeks</div><div><h4>Strategy to Shipped</h4><p>Typical time-to-value on net-new agent builds.</p></div></div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       AGENTS BUILDING AGENTS
-       ============================ -->
-  <section class="aba" aria-label="Agents building agents">
+  <!-- ============================================================ AGENTS BUILDING AGENTS ============================================================ -->
+  <section aria-label="Agents building agents">
     <div class="container">
-      <div class="aba-shell reveal">
+      <div class="aba-shell rev rev-init">
         <div class="aba-text">
-          <div class="aba-spec">The AISymmetric difference</div>
+          <div class="aba-spec">The AISymmetric Difference</div>
           <h2>We build <span class="gradient-text">agents that build agents</span>, alongside your domain experts.</h2>
           <p>Our operators pair with yours. We stand up meta-agents that orchestrate specialist agents, chained to your people, processes, and technology. The work compounds: every engagement leaves you with reusable scaffolding, not a locked-in deliverable. That's why our clients stay.</p>
         </div>
@@ -1606,15 +1209,13 @@
           <svg viewBox="0 0 400 400">
             <defs>
               <radialGradient id="hubGrad" cx="50%" cy="50%" r="50%">
-                <stop offset="0%"  stop-color="#22D3EE" stop-opacity="1"/>
+                <stop offset="0%" stop-color="#22D3EE" stop-opacity="1"/>
                 <stop offset="70%" stop-color="#3B82F6" stop-opacity="0.9"/>
                 <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
               </radialGradient>
             </defs>
-            <!-- outer ring orchestrators -->
             <circle class="aba-node hub" cx="200" cy="200" r="42"/>
-            <text x="200" y="205" text-anchor="middle" fill="#fff" font-family="Inter" font-weight="700" font-size="13">Meta</text>
-            <!-- orbit 1 -->
+            <text x="200" y="205" text-anchor="middle" fill="#FFF" font-family="Inter" font-weight="700" font-size="13">Meta</text>
             <g>
               <circle class="aba-node" cx="200" cy="80"  r="22"/>
               <circle class="aba-node" cx="320" cy="200" r="22"/>
@@ -1625,7 +1226,6 @@
               <line class="aba-link active" x1="200" y1="242" x2="200" y2="298"/>
               <line class="aba-link active" x1="158" y1="200" x2="102" y2="200"/>
             </g>
-            <!-- orbit 2 (specialists) -->
             <g>
               <circle class="aba-node" cx="290" cy="110" r="14"/>
               <circle class="aba-node" cx="290" cy="290" r="14"/>
@@ -1636,97 +1236,90 @@
               <line class="aba-link" x1="180" y1="310" x2="124" y2="290"/>
               <line class="aba-link" x1="90"  y1="180" x2="110" y2="124"/>
             </g>
-            <!-- labels -->
-            <text x="200" y="65"  text-anchor="middle" fill="#9AA3B8" font-family="JetBrains Mono" font-size="10">SALES</text>
-            <text x="340" y="204" text-anchor="middle" fill="#9AA3B8" font-family="JetBrains Mono" font-size="10">DATA</text>
-            <text x="200" y="350" text-anchor="middle" fill="#9AA3B8" font-family="JetBrains Mono" font-size="10">OPS</text>
-            <text x="60"  y="204" text-anchor="middle" fill="#9AA3B8" font-family="JetBrains Mono" font-size="10">SERVICE</text>
+            <text x="200" y="68"  text-anchor="middle" fill="#6B7280" font-family="Inter" font-size="11" font-weight="600">SALES</text>
+            <text x="340" y="204" text-anchor="middle" fill="#6B7280" font-family="Inter" font-size="11" font-weight="600">DATA</text>
+            <text x="200" y="350" text-anchor="middle" fill="#6B7280" font-family="Inter" font-size="11" font-weight="600">OPS</text>
+            <text x="60"  y="204" text-anchor="middle" fill="#6B7280" font-family="Inter" font-size="11" font-weight="600">SERVICE</text>
           </svg>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       FINAL CTA
-       ============================ -->
-  <section id="contact" class="cta-final" aria-label="Get in touch">
+  <!-- ============================================================ FINAL CTA ============================================================ -->
+  <section id="contact" aria-label="Get in touch">
     <div class="container">
-      <div class="cta-shell reveal">
-        <span class="eyebrow">Start Here</span>
+      <div class="cta-shell rev rev-init">
+        <span class="section-tag">Start Here</span>
         <h2>Bring us your <span class="gradient-text">bottleneck</span>.</h2>
         <p>Broken workflow. Stalled deal motion. Data you can't trust. A growth target your team can't hit alone. We'll map the right first use case and get to production before most firms finish discovery.</p>
         <div class="hero-ctas">
           <a href="mailto:hello@aisymmetricsolutions.com?subject=Let%27s%20build%20the%20right%20use%20case" class="btn btn-primary">
             Book a Strategy Session
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+            <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
-          <a href="https://aisymmetricsolutions.com" class="btn btn-ghost">See What We Can Build</a>
+          <a href="https://aisymmetricsolutions.com/" class="btn btn-secondary">See What We Can Build</a>
         </div>
         <div class="cta-url">
-          <a href="https://aisymmetricsolutions.com">aisymmetricsolutions.com</a>
-          &nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href="mailto:hello@aisymmetricsolutions.com">hello@aisymmetricsolutions.com</a>
+          <a href="https://aisymmetricsolutions.com/">aisymmetricsolutions.com</a> &nbsp;·&nbsp;
+          <a href="https://aisymmetricdigital.com/">aisymmetricdigital.com</a> &nbsp;·&nbsp;
+          <a href="https://aisymmetricaegis.com/">aisymmetricaegis.com</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       FOOTER
-       ============================ -->
+  <!-- ============================================================ FOOTER ============================================================ -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="brand">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <span class="brand-word">AI<span class="accent">Symmetric</span></span>
-          </div>
+          <a href="https://aisymmetricsolutions.com/" class="nav-logo">
+            <img src="../assets/images/logo-transparent.png" alt="AISymmetric" />
+            <span>AISymmetric</span>
+          </a>
           <p>The #1 AI boutique firm. Strategy, build, and deployment for the unsolvable problems—across AI, data, revenue platforms, and security.</p>
         </div>
         <div class="footer-col">
-          <h5>Services</h5>
+          <h5>Properties</h5>
           <ul>
-            <li><a href="#offerings">AI Consulting</a></li>
-            <li><a href="#offerings">Digital &amp; Platforms</a></li>
-            <li><a href="#offerings">Security &amp; Trust</a></li>
+            <li><a href="https://aisymmetricsolutions.com/">AISymmetric Solutions</a></li>
+            <li><a href="https://aisymmetricdigital.com/">AISymmetric Digital</a></li>
+            <li><a href="https://aisymmetricaegis.com/">AISymmetric Aegis</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h5>Proof</h5>
           <ul>
-            <li><a href="#heartbeat">Coverage</a></li>
+            <li><a href="#coverage">Coverage</a></li>
             <li><a href="#usecases">Use Cases</a></li>
             <li><a href="#winpulse">Win Pulse</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Company</h5>
+          <h5>Contact</h5>
           <ul>
-            <li><a href="https://aisymmetricsolutions.com">Main Site</a></li>
-            <li><a href="#process">How We Work</a></li>
-            <li><a href="mailto:hello@aisymmetricsolutions.com">Contact</a></li>
+            <li><a href="mailto:hello@aisymmetricsolutions.com">hello@aisymmetricsolutions.com</a></li>
+            <li><a href="#contact">Book a Strategy Session</a></li>
+            <li><a href="https://aisymmetricsolutions.com/">Main Site</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span id="year"></span> AISymmetric · All rights reserved</span>
+        <span>© <span id="year"></span> AISymmetric LLC · All rights reserved</span>
         <span>AGENTS BUILDING AGENTS · SHIPPED, NOT SHOWN</span>
       </div>
     </div>
   </footer>
 
   <script>
-    // ==========================
     // Nav scroll blur
-    // ==========================
     const nav = document.getElementById('nav');
     const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
 
-    // Mobile nav
+    // Mobile nav toggle
     const toggle = document.getElementById('navToggle');
     const links  = document.getElementById('navLinks');
     toggle.addEventListener('click', () => {
@@ -1740,43 +1333,41 @@
       }
     });
 
-    // Footer year
+    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // ==========================
-    // Scroll reveal
-    // ==========================
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('in');
-          revealObserver.unobserve(e.target);
-        }
+    // Scroll reveal — elements are VISIBLE by default.
+    // Only hide (rev-init) those that are BELOW the fold at load time, so hero never disappears.
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!prefersReducedMotion) {
+      const vh = window.innerHeight;
+      document.querySelectorAll('.rev').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top >= vh - 40) el.classList.add('rev-init');
       });
-    }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
-    document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => revealObserver.observe(el));
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('rev-on');
+            observer.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.rev.rev-init').forEach(el => observer.observe(el));
+    }
 
-    // ==========================
-    // Count-up metrics
-    // ==========================
-    const counters = document.querySelectorAll('[data-count]');
-    const formatNum = (n, suffix) => {
-      const s = suffix || '';
-      // keep integer render, but allow suffix like "M+" / "%"
-      return Math.round(n).toLocaleString() + s;
-    };
+    // Count-up for hero metrics
+    const counters = document.querySelectorAll('.metric-value[data-count]');
     const animateCount = (el) => {
       const target = parseFloat(el.dataset.count);
-      const suffix = el.dataset.suffix || '';
       const dur = 1800;
       const start = performance.now();
       const step = (now) => {
         const t = Math.min(1, (now - start) / dur);
-        // easeOutQuart
         const eased = 1 - Math.pow(1 - t, 4);
-        el.textContent = formatNum(target * eased, suffix);
+        el.textContent = Math.round(target * eased).toLocaleString();
         if (t < 1) requestAnimationFrame(step);
-        else el.textContent = formatNum(target, suffix);
+        else el.textContent = target.toLocaleString();
       };
       requestAnimationFrame(step);
     };
