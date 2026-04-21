@@ -119,17 +119,13 @@
     }
 
     /* =========================================================
-       REVEAL — all content visible by default. Scroll reveal only
-       opts into a hidden state when JS confirms an element is below
-       the fold at load time. Hero has NO entrance animation at all
-       (lesson from prior iteration: animation fill-mode caused the
-       hero to lock at opacity:0 in some browsers).
+       REVEAL — removed entirely. All content is visible by default.
+       Previously used IntersectionObserver to fade elements in on
+       scroll; observer timing/threshold issues caused below-fold
+       sections to stay stuck at opacity:0 on some browsers.
+       Reliability > flourish for a prospect-facing page.
        ========================================================= */
     .rev { opacity: 1; }
-    @media (prefers-reduced-motion: no-preference) {
-      .rev.rev-init { opacity: 0; transform: translateY(20px); transition: opacity 0.7s var(--ease), transform 0.7s var(--ease); }
-      .rev.rev-on   { opacity: 1; transform: none; }
-    }
 
     /* =========================================================
        BUTTONS — match main site
@@ -1328,25 +1324,7 @@
     // Year
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Scroll reveal — elements are VISIBLE by default.
-    // Only hide (rev-init) those that are BELOW the fold at load time, so hero never disappears.
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (!prefersReducedMotion) {
-      const vh = window.innerHeight;
-      document.querySelectorAll('.rev').forEach(el => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top >= vh - 40) el.classList.add('rev-init');
-      });
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(e => {
-          if (e.isIntersecting) {
-            e.target.classList.add('rev-on');
-            observer.unobserve(e.target);
-          }
-        });
-      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-      document.querySelectorAll('.rev.rev-init').forEach(el => observer.observe(el));
-    }
+    // (Scroll-reveal animation removed — content is visible by default.)
 
     // Count-up for hero metrics
     const counters = document.querySelectorAll('.metric-value[data-count]');
