@@ -165,7 +165,12 @@ Records with `ttl=300` typically propagate globally within 1–5 minutes. If a r
 
 | Date | Change | By |
 |---|---|---|
+| 2026-04-21 | Refactor of `/success` page — light theme, real logo, cross-property links, fixed hero-visibility bug (removed `animation-fill-mode: both` which was locking hero at opacity:0). | Tyler Perleberg |
+| 2026-04-21 | Discovered Netlify site has no git auto-deploy (`repo_url: null`). Drafted `.github/workflows/deploy.yml` to close this gap. Manual `netlify deploy --prod` still required until workflow is shipped. | Tyler Perleberg |
+| 2026-04-21 | Added `/success` customer-wins microsite at `aisymmetricsolutions.com/success/`. | Tyler Perleberg |
 | 2026-04-20 | Added 5 SendGrid Sender-Authentication CNAMEs (url3128, 97609978, em5332, s1._domainkey, s2._domainkey). Verified in SendGrid. | Tyler Perleberg |
 | 2026-04-20 | Unified git identity across all AISymmetric repos to `Tyler Perleberg <tyler.perleberg@aisymmetricsolutions.com>`. | Tyler Perleberg |
 | 2026-04-20 | Created this infrastructure doc. | Tyler Perleberg |
 | 2026-04-15 | ISO 27001/27701 compliance: cookie consent, CSP headers, breach notification, CAA record. | — |
+
+See also: [`docs/SESSION-NOTES.md`](./SESSION-NOTES.md) for chronological session-by-session narrative.

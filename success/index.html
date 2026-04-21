@@ -119,19 +119,12 @@
     }
 
     /* =========================================================
-       REVEAL — visible by default, opts into hide only if below fold.
-       This avoids the hidden-hero bug entirely.
+       REVEAL — all content visible by default. Scroll reveal only
+       opts into a hidden state when JS confirms an element is below
+       the fold at load time. Hero has NO entrance animation at all
+       (lesson from prior iteration: animation fill-mode caused the
+       hero to lock at opacity:0 in some browsers).
        ========================================================= */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to   { opacity: 1; transform: none; }
-    }
-    .fade-in { animation: fadeUp 0.8s var(--ease) both; }
-    .fade-in-1 { animation-delay: 0.05s; }
-    .fade-in-2 { animation-delay: 0.15s; }
-    .fade-in-3 { animation-delay: 0.25s; }
-    .fade-in-4 { animation-delay: 0.35s; }
-    .fade-in-5 { animation-delay: 0.45s; }
     .rev { opacity: 1; }
     @media (prefers-reduced-motion: no-preference) {
       .rev.rev-init { opacity: 0; transform: translateY(20px); transition: opacity 0.7s var(--ease), transform 0.7s var(--ease); }
@@ -751,7 +744,6 @@
 
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
-      .fade-in { animation: none; }
       .rev.rev-init { opacity: 1 !important; transform: none !important; }
     }
   </style>
@@ -784,22 +776,22 @@
   <header class="hero" id="top">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="container">
-      <div class="hero-badge fade-in fade-in-1"><span class="badge-dot"></span> Customer Success Stories</div>
-      <h1 class="hero-title fade-in fade-in-2">
+      <div class="hero-badge"><span class="badge-dot"></span> Customer Success Stories</div>
+      <h1 class="hero-title">
         Proof we <span class="gradient-text">solve the unsolvable</span>—<br />
         and ship it to production.
       </h1>
-      <p class="hero-subtitle fade-in fade-in-3">
+      <p class="hero-subtitle">
         The #1 AI boutique firm. Anonymized outcomes from customer engagements across AI, data, revenue platforms, and security. Every engagement augments your people, process, and technology—until ROI shows up on the P&amp;L.
       </p>
-      <div class="hero-ctas fade-in fade-in-4">
+      <div class="hero-ctas">
         <a href="#usecases" class="btn btn-primary">
           Explore Use Cases
           <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <a href="#contact" class="btn btn-secondary">Book a Strategy Session</a>
       </div>
-      <div class="hero-metrics fade-in fade-in-5">
+      <div class="hero-metrics">
         <div class="metric"><div class="metric-top"><span class="metric-value" data-count="50">50</span><span class="metric-suffix">+</span></div><span class="metric-label">SMB to Enterprise Success Stories</span></div>
         <div class="metric-divider"></div>
         <div class="metric"><div class="metric-top"><span class="metric-value" data-count="100">100</span><span class="metric-suffix">s</span></div><span class="metric-label">AI Agents Deployed</span></div>
