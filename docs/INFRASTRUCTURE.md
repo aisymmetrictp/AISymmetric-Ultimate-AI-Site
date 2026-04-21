@@ -51,6 +51,7 @@ CNAME  webportfolio        aisymmetric-web-portfolio.netlify.app
 CNAME  crm                 <vercel-dns>
 CNAME  clerk.crm           frontend-api.clerk.services
 CNAME  dashboards          quantum-health-poc1.netlify.app
+CNAME  firmos              cname.vercel-dns.com                # Vercel — added 2026-04-21
 CNAME  preop               acuvai-preop-navigator.netlify.app
 A      api                 76.76.21.21                        # Vercel
 A      mach96              76.76.21.21
@@ -165,6 +166,7 @@ Records with `ttl=300` typically propagate globally within 1–5 minutes. If a r
 
 | Date | Change | By |
 |---|---|---|
+| 2026-04-21 | Added CNAME `firmos.aisymmetricsolutions.com` → `cname.vercel-dns.com` (TTL 3600) for a new Vercel-hosted project. Netlify DNS record id `69e78e7d6516a4076eeabdf7`. | Tyler Perleberg |
 | 2026-04-21 | Refactor of `/success` page — light theme, real logo, cross-property links, fixed hero-visibility bug (removed `animation-fill-mode: both` which was locking hero at opacity:0). | Tyler Perleberg |
 | 2026-04-21 | Discovered Netlify site has no git auto-deploy (`repo_url: null`). Drafted `.github/workflows/deploy.yml` to close this gap. Manual `netlify deploy --prod` still required until workflow is shipped. | Tyler Perleberg |
 | 2026-04-21 | Added `/success` customer-wins microsite at `aisymmetricsolutions.com/success/`. | Tyler Perleberg |
