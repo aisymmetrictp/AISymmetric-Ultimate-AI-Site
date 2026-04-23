@@ -47,6 +47,7 @@ Subdomains in active use (non-exhaustive; zone has ~60 records total):
 CNAME  www                 aisymmetric-ultimate.netlify.app   # main site alias
        nti                 driverwages-website.netlify.app    # NTI driver wages (currently A records to 18.208.88.157 + 98.84.224.111)
        clecoproposal       cleco-aisymmetric-proposal.netlify.app   # Cleco proposal (access-gated)
+       westwindow          west-window-website.netlify.app    # West Window (NETLIFY record type)
 CNAME  escapely            escapely-site.netlify.app
 CNAME  webportfolio        aisymmetric-web-portfolio.netlify.app
 CNAME  crm                 <vercel-dns>
@@ -167,6 +168,7 @@ Records with `ttl=300` typically propagate globally within 1–5 minutes. If a r
 
 | Date | Change | By |
 |---|---|---|
+| 2026-04-23 | Recorded `westwindow.aisymmetricsolutions.com` in subdomain inventory. A NETLIFY-type record (id `69ea7a650e763f0008cb5fe8`) → `west-window-website.netlify.app` already existed. Added a CNAME on top by mistake (id `69ea83a231fe5139e5129453`); deleted the duplicate. NETLIFY record retained as the single authoritative record. | Tyler Perleberg |
 | 2026-04-21 | Verified DNS for `clecoproposal.aisymmetricsolutions.com` — already wired via a NETLIFY record to `cleco-aisymmetric-proposal.netlify.app` (Netlify DNS record id `69e83b3175afec0009c70fc6`). SSL provisioned. No action needed. Recorded in subdomain inventory. | Tyler Perleberg |
 | 2026-04-21 | Added CNAME `firmos.aisymmetricsolutions.com` → `cname.vercel-dns.com` (TTL 3600) for a new Vercel-hosted project. Netlify DNS record id `69e78e7d6516a4076eeabdf7`. | Tyler Perleberg |
 | 2026-04-21 | Refactor of `/success` page — light theme, real logo, cross-property links, fixed hero-visibility bug (removed `animation-fill-mode: both` which was locking hero at opacity:0). | Tyler Perleberg |
